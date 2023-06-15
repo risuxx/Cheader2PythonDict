@@ -1,0 +1,6340 @@
+[
+    [
+      {
+        "content": "struct GUID\\n{\\n  UINT32 Data1;\\n  UINT16 Data2;\\n  UINT16 Data3;\\n  UINT8 Data4[8];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 2097,
+        "endPos": 2184
+      },
+      {
+        "content": "GUID",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2104,
+        "endPos": 2108
+      },
+      {
+        "content": "  UINT8 Data4[8];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2164,
+        "endPos": 2183
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 2166,
+        "endPos": 2171
+      },
+      {
+        "content": "Data4[8]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 2172,
+        "endPos": 2180
+      },
+      {
+        "content": "[8]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 2177,
+        "endPos": 2180
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_DEVICE_PATH_PROTOCOL\\n{\\n  UINT8 Type;\\n  UINT8 SubType;\\n  UINT8 Length[2];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 2235,
+        "endPos": 2325
+      },
+      {
+        "content": "EFI_DEVICE_PATH_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 2242,
+        "endPos": 2266
+      },
+      {
+        "content": "  UINT8 Length[2];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 2304,
+        "endPos": 2324
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 2306,
+        "endPos": 2311
+      },
+      {
+        "content": "Length[2]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 2312,
+        "endPos": 2321
+      },
+      {
+        "content": "[2]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 2318,
+        "endPos": 2321
+      }
+    ],
+    [
+      {
+        "content": "struct VARIABLE_POLICY_ENTRY\\n{\\n  UINT32 Version;\\n  UINT16 Size;\\n  UINT16 OffsetToName;\\n  EFI_GUID Namespace;\\n  UINT32 MinSize;\\n  UINT32 MaxSize;\\n  UINT32 AttributesMustHave;\\n  UINT32 AttributesCantHave;\\n  UINT8 LockPolicyType;\\n  UINT8 Padding[3];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 3179,
+        "endPos": 3439
+      },
+      {
+        "content": "VARIABLE_POLICY_ENTRY",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3186,
+        "endPos": 3207
+      },
+      {
+        "content": "  UINT8 Padding[3];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 3417,
+        "endPos": 3438
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 3419,
+        "endPos": 3424
+      },
+      {
+        "content": "Padding[3]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 3425,
+        "endPos": 3435
+      },
+      {
+        "content": "[3]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 3432,
+        "endPos": 3435
+      }
+    ],
+    [
+      {
+        "content": "struct _EDKII_VARIABLE_POLICY_PROTOCOL\\n{\\n  UINT64 Revision;\\n  DISABLE_VARIABLE_POLICY DisableVariablePolicy;\\n  IS_VARIABLE_POLICY_ENABLED IsVariablePolicyEnabled;\\n  REGISTER_VARIABLE_POLICY RegisterVariablePolicy;\\n  DUMP_VARIABLE_POLICY DumpVariablePolicy;\\n  LOCK_VARIABLE_POLICY LockVariablePolicy;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 3749,
+        "endPos": 4058
+      },
+      {
+        "content": "_EDKII_VARIABLE_POLICY_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 3756,
+        "endPos": 3787
+      },
+      {
+        "content": "  LOCK_VARIABLE_POLICY LockVariablePolicy;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 4013,
+        "endPos": 4057
+      },
+      {
+        "content": "LOCK_VARIABLE_POLICY",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 4015,
+        "endPos": 4035
+      },
+      {
+        "content": "LockVariablePolicy",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 4036,
+        "endPos": 4054
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_OPEN_PROTOCOL_INFORMATION_ENTRY\\n{\\n  EFI_HANDLE AgentHandle;\\n  EFI_HANDLE ControllerHandle;\\n  UINT32 Attributes;\\n  UINT32 OpenCount;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 5037,
+        "endPos": 5187
+      },
+      {
+        "content": "EFI_OPEN_PROTOCOL_INFORMATION_ENTRY",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 5044,
+        "endPos": 5079
+      },
+      {
+        "content": "  UINT32 OpenCount;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 5165,
+        "endPos": 5186
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 5167,
+        "endPos": 5173
+      },
+      {
+        "content": "OpenCount",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 5174,
+        "endPos": 5183
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_MEMORY_DESCRIPTOR\\n{\\n  UINT32 Type;\\n  EFI_PHYSICAL_ADDRESS PhysicalStart;\\n  EFI_VIRTUAL_ADDRESS VirtualStart;\\n  UINT64 NumberOfPages;\\n  UINT64 Attribute;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 8861,
+        "endPos": 9033
+      },
+      {
+        "content": "EFI_MEMORY_DESCRIPTOR",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 8868,
+        "endPos": 8889
+      },
+      {
+        "content": "  UINT64 Attribute;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9011,
+        "endPos": 9032
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 9013,
+        "endPos": 9019
+      },
+      {
+        "content": "Attribute",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 9020,
+        "endPos": 9029
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_TABLE_HEADER\\n{\\n  UINT64 Signature;\\n  UINT32 Revision;\\n  UINT32 HeaderSize;\\n  UINT32 CRC32;\\n  UINT32 Reserved;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 9639,
+        "endPos": 9768
+      },
+      {
+        "content": "EFI_TABLE_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 9646,
+        "endPos": 9662
+      },
+      {
+        "content": "  UINT32 Reserved;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 9747,
+        "endPos": 9767
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 9749,
+        "endPos": 9755
+      },
+      {
+        "content": "Reserved",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 9756,
+        "endPos": 9764
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_CAPSULE_HEADER\\n{\\n  EFI_GUID CapsuleGuid;\\n  UINT32 HeaderSize;\\n  UINT32 Flags;\\n  UINT32 CapsuleImageSize;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 11921,
+        "endPos": 12044
+      },
+      {
+        "content": "EFI_CAPSULE_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 11928,
+        "endPos": 11946
+      },
+      {
+        "content": "  UINT32 CapsuleImageSize;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 12015,
+        "endPos": 12043
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 12017,
+        "endPos": 12023
+      },
+      {
+        "content": "CapsuleImageSize",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 12024,
+        "endPos": 12040
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_TIME\\n{\\n  UINT16 Year;\\n  UINT8 Month;\\n  UINT8 Day;\\n  UINT8 Hour;\\n  UINT8 Minute;\\n  UINT8 Second;\\n  UINT8 Pad1;\\n  UINT32 Nanosecond;\\n  INT16 TimeZone;\\n  UINT8 Daylight;\\n  UINT8 Pad2;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 12969,
+        "endPos": 13175
+      },
+      {
+        "content": "EFI_TIME",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 12976,
+        "endPos": 12984
+      },
+      {
+        "content": "  UINT8 Pad2;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 13159,
+        "endPos": 13174
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 13161,
+        "endPos": 13166
+      },
+      {
+        "content": "Pad2",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 13167,
+        "endPos": 13171
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_RUNTIME_SERVICES\\n{\\n  EFI_TABLE_HEADER Hdr;\\n  EFI_GET_TIME GetTime;\\n  EFI_SET_TIME SetTime;\\n  EFI_GET_WAKEUP_TIME GetWakeupTime;\\n  EFI_SET_WAKEUP_TIME SetWakeupTime;\\n  EFI_SET_VIRTUAL_ADDRESS_MAP SetVirtualAddressMap;\\n  EFI_CONVERT_POINTER ConvertPointer;\\n  EFI_GET_VARIABLE GetVariable;\\n  EFI_GET_NEXT_VARIABLE_NAME GetNextVariableName;\\n  EFI_SET_VARIABLE SetVariable;\\n  EFI_GET_NEXT_HIGH_MONO_COUNT GetNextHighMonotonicCount;\\n  EFI_RESET_SYSTEM ResetSystem;\\n  EFI_UPDATE_CAPSULE UpdateCapsule;\\n  EFI_QUERY_CAPSULE_CAPABILITIES QueryCapsuleCapabilities;\\n  EFI_QUERY_VARIABLE_INFO QueryVariableInfo;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 13749,
+        "endPos": 14377
+      },
+      {
+        "content": "EFI_RUNTIME_SERVICES",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 13756,
+        "endPos": 13776
+      },
+      {
+        "content": "  EFI_QUERY_VARIABLE_INFO QueryVariableInfo;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 14330,
+        "endPos": 14376
+      },
+      {
+        "content": "EFI_QUERY_VARIABLE_INFO",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 14332,
+        "endPos": 14355
+      },
+      {
+        "content": "QueryVariableInfo",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 14356,
+        "endPos": 14373
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_INPUT_KEY\\n{\\n  UINT16 ScanCode;\\n  CHAR16 UnicodeChar;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 16072,
+        "endPos": 16141
+      },
+      {
+        "content": "EFI_INPUT_KEY",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 16079,
+        "endPos": 16092
+      },
+      {
+        "content": "  CHAR16 UnicodeChar;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 16117,
+        "endPos": 16140
+      },
+      {
+        "content": "CHAR16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 16119,
+        "endPos": 16125
+      },
+      {
+        "content": "UnicodeChar",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 16126,
+        "endPos": 16137
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_SIMPLE_TEXT_INPUT_PROTOCOL\\n{\\n  EFI_INPUT_RESET Reset;\\n  EFI_INPUT_READ_KEY ReadKeyStroke;\\n  EFI_EVENT WaitForKey;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 16446,
+        "endPos": 16578
+      },
+      {
+        "content": "_EFI_SIMPLE_TEXT_INPUT_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 16453,
+        "endPos": 16484
+      },
+      {
+        "content": "  EFI_EVENT WaitForKey;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 16552,
+        "endPos": 16577
+      },
+      {
+        "content": "EFI_EVENT",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 16554,
+        "endPos": 16563
+      },
+      {
+        "content": "WaitForKey",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 16564,
+        "endPos": 16574
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_DRIVER_HEALTH_HII_MESSAGE\\n{\\n  EFI_HII_HANDLE HiiHandle;\\n  EFI_STRING_ID StringId;\\n  UINT64 MessageCode;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 17290,
+        "endPos": 17411
+      },
+      {
+        "content": "EFI_DRIVER_HEALTH_HII_MESSAGE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 17297,
+        "endPos": 17326
+      },
+      {
+        "content": "  UINT64 MessageCode;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 17387,
+        "endPos": 17410
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 17389,
+        "endPos": 17395
+      },
+      {
+        "content": "MessageCode",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 17396,
+        "endPos": 17407
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_DRIVER_HEALTH_PROTOCOL\\n{\\n  EFI_DRIVER_HEALTH_GET_HEALTH_STATUS GetHealthStatus;\\n  EFI_DRIVER_HEALTH_REPAIR Repair;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 18276,
+        "endPos": 18408
+      },
+      {
+        "content": "_EFI_DRIVER_HEALTH_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 18283,
+        "endPos": 18310
+      },
+      {
+        "content": "  EFI_DRIVER_HEALTH_REPAIR Repair;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 18371,
+        "endPos": 18407
+      },
+      {
+        "content": "EFI_DRIVER_HEALTH_REPAIR",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 18373,
+        "endPos": 18397
+      },
+      {
+        "content": "Repair",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 18398,
+        "endPos": 18404
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_BOOT_MANAGER_KEY_OPTION\\n{\\n  EFI_BOOT_KEY_DATA KeyData;\\n  UINT32 BootOptionCrc;\\n  UINT16 BootOption;\\n  EFI_INPUT_KEY Keys[3];\\n  UINT16 OptionNumber;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 19283,
+        "endPos": 19450
+      },
+      {
+        "content": "EFI_BOOT_MANAGER_KEY_OPTION",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 19290,
+        "endPos": 19317
+      },
+      {
+        "content": "  UINT16 OptionNumber;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 19425,
+        "endPos": 19449
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 19427,
+        "endPos": 19433
+      },
+      {
+        "content": "OptionNumber",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 19434,
+        "endPos": 19446
+      },
+      {
+        "content": "[3]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 19419,
+        "endPos": 19422
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_KEY_DATA\\n{\\n  EFI_INPUT_KEY Key;\\n  EFI_KEY_STATE KeyState;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 19843,
+        "endPos": 19917
+      },
+      {
+        "content": "EFI_KEY_DATA",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 19850,
+        "endPos": 19862
+      },
+      {
+        "content": "  EFI_KEY_STATE KeyState;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 19889,
+        "endPos": 19916
+      },
+      {
+        "content": "EFI_KEY_STATE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 19891,
+        "endPos": 19904
+      },
+      {
+        "content": "KeyState",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 19905,
+        "endPos": 19913
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL\\n{\\n  EFI_INPUT_RESET_EX Reset;\\n  EFI_INPUT_READ_KEY_EX ReadKeyStrokeEx;\\n  EFI_EVENT WaitForKeyEx;\\n  EFI_SET_STATE SetState;\\n  EFI_REGISTER_KEYSTROKE_NOTIFY RegisterKeyNotify;\\n  EFI_UNREGISTER_KEYSTROKE_NOTIFY UnregisterKeyNotify;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 20917,
+        "endPos": 21197
+      },
+      {
+        "content": "_EFI_SIMPLE_TEXT_INPUT_EX_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 20924,
+        "endPos": 20958
+      },
+      {
+        "content": "  EFI_UNREGISTER_KEYSTROKE_NOTIFY UnregisterKeyNotify;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 21140,
+        "endPos": 21196
+      },
+      {
+        "content": "EFI_UNREGISTER_KEYSTROKE_NOTIFY",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 21142,
+        "endPos": 21173
+      },
+      {
+        "content": "UnregisterKeyNotify",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 21174,
+        "endPos": 21193
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_BDS_ARCH_PROTOCOL\\n{\\n  EFI_BDS_ENTRY Entry;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 22257,
+        "endPos": 22316
+      },
+      {
+        "content": "_EFI_BDS_ARCH_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 22264,
+        "endPos": 22286
+      },
+      {
+        "content": "  EFI_BDS_ENTRY Entry;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 22291,
+        "endPos": 22315
+      },
+      {
+        "content": "EFI_BDS_ENTRY",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 22293,
+        "endPos": 22306
+      },
+      {
+        "content": "Entry",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 22307,
+        "endPos": 22312
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_GRAPHICS_OUTPUT_BLT_PIXEL\\n{\\n  UINT8 Blue;\\n  UINT8 Green;\\n  UINT8 Red;\\n  UINT8 Reserved;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 22366,
+        "endPos": 22472
+      },
+      {
+        "content": "EFI_GRAPHICS_OUTPUT_BLT_PIXEL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 22373,
+        "endPos": 22402
+      },
+      {
+        "content": "  UINT8 Reserved;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 22452,
+        "endPos": 22471
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 22454,
+        "endPos": 22459
+      },
+      {
+        "content": "Reserved",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 22460,
+        "endPos": 22468
+      }
+    ],
+    [
+      {
+        "content": "struct MEDIA_FW_VOL_FILEPATH_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  EFI_GUID FvFileName;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 22715,
+        "endPos": 22821
+      },
+      {
+        "content": "MEDIA_FW_VOL_FILEPATH_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 22722,
+        "endPos": 22755
+      },
+      {
+        "content": "  EFI_GUID FvFileName;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 22796,
+        "endPos": 22820
+      },
+      {
+        "content": "EFI_GUID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 22798,
+        "endPos": 22806
+      },
+      {
+        "content": "FvFileName",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 22807,
+        "endPos": 22817
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_RAM_DISK_PROTOCOL\\n{\\n  EFI_RAM_DISK_REGISTER_RAMDISK Register;\\n  EFI_RAM_DISK_UNREGISTER_RAMDISK Unregister;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 23888,
+        "endPos": 24013
+      },
+      {
+        "content": "_EFI_RAM_DISK_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 23895,
+        "endPos": 23917
+      },
+      {
+        "content": "  EFI_RAM_DISK_UNREGISTER_RAMDISK Unregister;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 23965,
+        "endPos": 24012
+      },
+      {
+        "content": "EFI_RAM_DISK_UNREGISTER_RAMDISK",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 23967,
+        "endPos": 23998
+      },
+      {
+        "content": "Unregister",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 23999,
+        "endPos": 24009
+      }
+    ],
+    [
+      {
+        "content": "struct VENDOR_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  EFI_GUID Guid;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 24097,
+        "endPos": 24182
+      },
+      {
+        "content": "VENDOR_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 24104,
+        "endPos": 24122
+      },
+      {
+        "content": "  EFI_GUID Guid;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 24163,
+        "endPos": 24181
+      },
+      {
+        "content": "EFI_GUID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 24165,
+        "endPos": 24173
+      },
+      {
+        "content": "Guid",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 24174,
+        "endPos": 24178
+      }
+    ],
+    [
+      {
+        "content": "struct EMU_VENDOR_DEVICE_PATH_NODE\\n{\\n  VENDOR_DEVICE_PATH VendorDevicePath;\\n  UINT32 Instance;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 24198,
+        "endPos": 24298
+      },
+      {
+        "content": "EMU_VENDOR_DEVICE_PATH_NODE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 24205,
+        "endPos": 24232
+      },
+      {
+        "content": "  UINT32 Instance;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 24277,
+        "endPos": 24297
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 24279,
+        "endPos": 24285
+      },
+      {
+        "content": "Instance",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 24286,
+        "endPos": 24294
+      }
+    ],
+    [
+      {
+        "content": "struct EMU_PLATFORM_UGA_DEVICE_PATH\\n{\\n  EMU_VENDOR_DEVICE_PATH_NODE EmuBus;\\n  EMU_VENDOR_DEVICE_PATH_NODE EmuGraphicsWindow;\\n  EFI_DEVICE_PATH_PROTOCOL End;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 24314,
+        "endPos": 24477
+      },
+      {
+        "content": "EMU_PLATFORM_UGA_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 24321,
+        "endPos": 24349
+      },
+      {
+        "content": "  EFI_DEVICE_PATH_PROTOCOL End;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 24443,
+        "endPos": 24476
+      },
+      {
+        "content": "EFI_DEVICE_PATH_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 24445,
+        "endPos": 24469
+      },
+      {
+        "content": "End",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 24470,
+        "endPos": 24473
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_SCREEN_DESCRIPTOR\\n{\\n  UINTN LeftColumn;\\n  UINTN RightColumn;\\n  UINTN TopRow;\\n  UINTN BottomRow;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 24663,
+        "endPos": 24777
+      },
+      {
+        "content": "EFI_SCREEN_DESCRIPTOR",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 24670,
+        "endPos": 24691
+      },
+      {
+        "content": "  UINTN BottomRow;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 24756,
+        "endPos": 24776
+      },
+      {
+        "content": "UINTN",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 24758,
+        "endPos": 24763
+      },
+      {
+        "content": "BottomRow",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 24764,
+        "endPos": 24773
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_FORM_BROWSER2_PROTOCOL\\n{\\n  EFI_SEND_FORM2 SendForm;\\n  EFI_BROWSER_CALLBACK2 BrowserCallback;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 25267,
+        "endPos": 25377
+      },
+      {
+        "content": "_EFI_FORM_BROWSER2_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 25274,
+        "endPos": 25301
+      },
+      {
+        "content": "  EFI_BROWSER_CALLBACK2 BrowserCallback;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 25334,
+        "endPos": 25376
+      },
+      {
+        "content": "EFI_BROWSER_CALLBACK2",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 25336,
+        "endPos": 25357
+      },
+      {
+        "content": "BrowserCallback",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 25358,
+        "endPos": 25373
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_GCD_IO_SPACE_DESCRIPTOR\\n{\\n  EFI_PHYSICAL_ADDRESS BaseAddress;\\n  UINT64 Length;\\n  EFI_GCD_IO_TYPE GcdIoType;\\n  EFI_HANDLE ImageHandle;\\n  EFI_HANDLE DeviceHandle;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 25870,
+        "endPos": 26050
+      },
+      {
+        "content": "EFI_GCD_IO_SPACE_DESCRIPTOR",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 25877,
+        "endPos": 25904
+      },
+      {
+        "content": "  EFI_HANDLE DeviceHandle;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 26021,
+        "endPos": 26049
+      },
+      {
+        "content": "EFI_HANDLE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 26023,
+        "endPos": 26033
+      },
+      {
+        "content": "DeviceHandle",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 26034,
+        "endPos": 26046
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_GCD_MEMORY_SPACE_DESCRIPTOR\\n{\\n  EFI_PHYSICAL_ADDRESS BaseAddress;\\n  UINT64 Length;\\n  UINT64 Capabilities;\\n  UINT64 Attributes;\\n  EFI_GCD_MEMORY_TYPE GcdMemoryType;\\n  EFI_HANDLE ImageHandle;\\n  EFI_HANDLE DeviceHandle;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 27382,
+        "endPos": 27620
+      },
+      {
+        "content": "EFI_GCD_MEMORY_SPACE_DESCRIPTOR",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 27389,
+        "endPos": 27420
+      },
+      {
+        "content": "  EFI_HANDLE DeviceHandle;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 27591,
+        "endPos": 27619
+      },
+      {
+        "content": "EFI_HANDLE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 27593,
+        "endPos": 27603
+      },
+      {
+        "content": "DeviceHandle",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 27604,
+        "endPos": 27616
+      }
+    ],
+    [
+      {
+        "content": "struct DXE_SERVICES\\n{\\n  EFI_TABLE_HEADER Hdr;\\n  EFI_ADD_MEMORY_SPACE AddMemorySpace;\\n  EFI_ALLOCATE_MEMORY_SPACE AllocateMemorySpace;\\n  EFI_FREE_MEMORY_SPACE FreeMemorySpace;\\n  EFI_REMOVE_MEMORY_SPACE RemoveMemorySpace;\\n  EFI_GET_MEMORY_SPACE_DESCRIPTOR GetMemorySpaceDescriptor;\\n  EFI_SET_MEMORY_SPACE_ATTRIBUTES SetMemorySpaceAttributes;\\n  EFI_GET_MEMORY_SPACE_MAP GetMemorySpaceMap;\\n  EFI_ADD_IO_SPACE AddIoSpace;\\n  EFI_ALLOCATE_IO_SPACE AllocateIoSpace;\\n  EFI_FREE_IO_SPACE FreeIoSpace;\\n  EFI_REMOVE_IO_SPACE RemoveIoSpace;\\n  EFI_GET_IO_SPACE_DESCRIPTOR GetIoSpaceDescriptor;\\n  EFI_GET_IO_SPACE_MAP GetIoSpaceMap;\\n  EFI_DISPATCH Dispatch;\\n  EFI_SCHEDULE Schedule;\\n  EFI_TRUST Trust;\\n  EFI_PROCESS_FIRMWARE_VOLUME ProcessFirmwareVolume;\\n  EFI_SET_MEMORY_SPACE_CAPABILITIES SetMemorySpaceCapabilities;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 28552,
+        "endPos": 29378
+      },
+      {
+        "content": "DXE_SERVICES",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 28559,
+        "endPos": 28571
+      },
+      {
+        "content": "  EFI_SET_MEMORY_SPACE_CAPABILITIES SetMemorySpaceCapabilities;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 29312,
+        "endPos": 29377
+      },
+      {
+        "content": "EFI_SET_MEMORY_SPACE_CAPABILITIES",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 29314,
+        "endPos": 29347
+      },
+      {
+        "content": "SetMemorySpaceCapabilities",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 29348,
+        "endPos": 29374
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_HII_CONFIG_ROUTING_PROTOCOL\\n{\\n  EFI_HII_EXTRACT_CONFIG ExtractConfig;\\n  EFI_HII_EXPORT_CONFIG ExportConfig;\\n  EFI_HII_ROUTE_CONFIG RouteConfig;\\n  EFI_HII_BLOCK_TO_CONFIG BlockToConfig;\\n  EFI_HII_CONFIG_TO_BLOCK ConfigToBlock;\\n  EFI_HII_GET_ALT_CFG GetAltConfig;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 30425,
+        "endPos": 30708
+      },
+      {
+        "content": "_EFI_HII_CONFIG_ROUTING_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 30432,
+        "endPos": 30464
+      },
+      {
+        "content": "  EFI_HII_GET_ALT_CFG GetAltConfig;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 30670,
+        "endPos": 30707
+      },
+      {
+        "content": "EFI_HII_GET_ALT_CFG",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 30672,
+        "endPos": 30691
+      },
+      {
+        "content": "GetAltConfig",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 30692,
+        "endPos": 30704
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HII_PACKAGE_LIST_HEADER\\n{\\n  EFI_GUID PackageListGuid;\\n  UINT32 PackageLength;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 31154,
+        "endPos": 31248
+      },
+      {
+        "content": "EFI_HII_PACKAGE_LIST_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 31161,
+        "endPos": 31188
+      },
+      {
+        "content": "  UINT32 PackageLength;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 31222,
+        "endPos": 31247
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 31224,
+        "endPos": 31230
+      },
+      {
+        "content": "PackageLength",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 31231,
+        "endPos": 31244
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_HII_DATABASE_PROTOCOL\\n{\\n  EFI_HII_DATABASE_NEW_PACK NewPackageList;\\n  EFI_HII_DATABASE_REMOVE_PACK RemovePackageList;\\n  EFI_HII_DATABASE_UPDATE_PACK UpdatePackageList;\\n  EFI_HII_DATABASE_LIST_PACKS ListPackageLists;\\n  EFI_HII_DATABASE_EXPORT_PACKS ExportPackageLists;\\n  EFI_HII_DATABASE_REGISTER_NOTIFY RegisterPackageNotify;\\n  EFI_HII_DATABASE_UNREGISTER_NOTIFY UnregisterPackageNotify;\\n  EFI_HII_FIND_KEYBOARD_LAYOUTS FindKeyboardLayouts;\\n  EFI_HII_GET_KEYBOARD_LAYOUT GetKeyboardLayout;\\n  EFI_HII_SET_KEYBOARD_LAYOUT SetKeyboardLayout;\\n  EFI_HII_DATABASE_GET_PACK_HANDLE GetPackageListHandle;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 32920,
+        "endPos": 33542
+      },
+      {
+        "content": "_EFI_HII_DATABASE_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 32927,
+        "endPos": 32953
+      },
+      {
+        "content": "  EFI_HII_DATABASE_GET_PACK_HANDLE GetPackageListHandle;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 33483,
+        "endPos": 33541
+      },
+      {
+        "content": "EFI_HII_DATABASE_GET_PACK_HANDLE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 33485,
+        "endPos": 33517
+      },
+      {
+        "content": "GetPackageListHandle",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 33518,
+        "endPos": 33538
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_PIXEL_BITMASK\\n{\\n  UINT32 RedMask;\\n  UINT32 GreenMask;\\n  UINT32 BlueMask;\\n  UINT32 ReservedMask;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 33789,
+        "endPos": 33903
+      },
+      {
+        "content": "EFI_PIXEL_BITMASK",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 33796,
+        "endPos": 33813
+      },
+      {
+        "content": "  UINT32 ReservedMask;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 33878,
+        "endPos": 33902
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 33880,
+        "endPos": 33886
+      },
+      {
+        "content": "ReservedMask",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 33887,
+        "endPos": 33899
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_GRAPHICS_OUTPUT_MODE_INFORMATION\\n{\\n  UINT32 Version;\\n  UINT32 HorizontalResolution;\\n  UINT32 VerticalResolution;\\n  EFI_GRAPHICS_PIXEL_FORMAT PixelFormat;\\n  EFI_PIXEL_BITMASK PixelInformation;\\n  UINT32 PixelsPerScanLine;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 34148,
+        "endPos": 34388
+      },
+      {
+        "content": "EFI_GRAPHICS_OUTPUT_MODE_INFORMATION",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 34155,
+        "endPos": 34191
+      },
+      {
+        "content": "  UINT32 PixelsPerScanLine;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 34358,
+        "endPos": 34387
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 34360,
+        "endPos": 34366
+      },
+      {
+        "content": "PixelsPerScanLine",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 34367,
+        "endPos": 34384
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_HII_IMAGE_PROTOCOL\\n{\\n  EFI_HII_NEW_IMAGE NewImage;\\n  EFI_HII_GET_IMAGE GetImage;\\n  EFI_HII_SET_IMAGE SetImage;\\n  EFI_HII_DRAW_IMAGE DrawImage;\\n  EFI_HII_DRAW_IMAGE_ID DrawImageId;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 36916,
+        "endPos": 37116
+      },
+      {
+        "content": "_EFI_HII_IMAGE_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 36923,
+        "endPos": 36946
+      },
+      {
+        "content": "  EFI_HII_DRAW_IMAGE_ID DrawImageId;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 37077,
+        "endPos": 37115
+      },
+      {
+        "content": "EFI_HII_DRAW_IMAGE_ID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 37079,
+        "endPos": 37100
+      },
+      {
+        "content": "DrawImageId",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 37101,
+        "endPos": 37112
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_FONT_INFO\\n{\\n  EFI_HII_FONT_STYLE FontStyle;\\n  UINT16 FontSize;\\n  CHAR16 FontName[1];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 37181,
+        "endPos": 37283
+      },
+      {
+        "content": "EFI_FONT_INFO",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 37188,
+        "endPos": 37201
+      },
+      {
+        "content": "  CHAR16 FontName[1];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 37259,
+        "endPos": 37282
+      },
+      {
+        "content": "CHAR16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 37261,
+        "endPos": 37267
+      },
+      {
+        "content": "FontName[1]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 37268,
+        "endPos": 37279
+      },
+      {
+        "content": "[1]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 37276,
+        "endPos": 37279
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_HII_STRING_PROTOCOL\\n{\\n  EFI_HII_NEW_STRING NewString;\\n  EFI_HII_GET_STRING GetString;\\n  EFI_HII_SET_STRING SetString;\\n  EFI_HII_GET_LANGUAGES GetLanguages;\\n  EFI_HII_GET_2ND_LANGUAGES GetSecondaryLanguages;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 38174,
+        "endPos": 38401
+      },
+      {
+        "content": "_EFI_HII_STRING_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 38181,
+        "endPos": 38205
+      },
+      {
+        "content": "  EFI_HII_GET_2ND_LANGUAGES GetSecondaryLanguages;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 38348,
+        "endPos": 38400
+      },
+      {
+        "content": "EFI_HII_GET_2ND_LANGUAGES",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 38350,
+        "endPos": 38375
+      },
+      {
+        "content": "GetSecondaryLanguages",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 38376,
+        "endPos": 38397
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_FONT_DISPLAY_INFO\\n{\\n  EFI_GRAPHICS_OUTPUT_BLT_PIXEL ForegroundColor;\\n  EFI_GRAPHICS_OUTPUT_BLT_PIXEL BackgroundColor;\\n  EFI_FONT_INFO_MASK FontInfoMask;\\n  EFI_FONT_INFO FontInfo;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 38466,
+        "endPos": 38664
+      },
+      {
+        "content": "_EFI_FONT_DISPLAY_INFO",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 38473,
+        "endPos": 38495
+      },
+      {
+        "content": "  EFI_FONT_INFO FontInfo;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 38636,
+        "endPos": 38663
+      },
+      {
+        "content": "EFI_FONT_INFO",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 38638,
+        "endPos": 38651
+      },
+      {
+        "content": "FontInfo",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 38652,
+        "endPos": 38660
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_HII_ROW_INFO\\n{\\n  UINTN StartIndex;\\n  UINTN EndIndex;\\n  UINTN LineHeight;\\n  UINTN LineWidth;\\n  UINTN BaselineOffset;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 38748,
+        "endPos": 38884
+      },
+      {
+        "content": "_EFI_HII_ROW_INFO",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 38755,
+        "endPos": 38772
+      },
+      {
+        "content": "  UINTN BaselineOffset;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 38858,
+        "endPos": 38883
+      },
+      {
+        "content": "UINTN",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 38860,
+        "endPos": 38865
+      },
+      {
+        "content": "BaselineOffset",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 38866,
+        "endPos": 38880
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_HII_FONT_PROTOCOL\\n{\\n  EFI_HII_STRING_TO_IMAGE StringToImage;\\n  EFI_HII_STRING_ID_TO_IMAGE StringIdToImage;\\n  EFI_HII_GET_GLYPH GetGlyph;\\n  EFI_HII_GET_FONT_INFO GetFontInfo;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 39945,
+        "endPos": 40138
+      },
+      {
+        "content": "_EFI_HII_FONT_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 39952,
+        "endPos": 39974
+      },
+      {
+        "content": "  EFI_HII_GET_FONT_INFO GetFontInfo;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 40099,
+        "endPos": 40137
+      },
+      {
+        "content": "EFI_HII_GET_FONT_INFO",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 40101,
+        "endPos": 40122
+      },
+      {
+        "content": "GetFontInfo",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 40123,
+        "endPos": 40134
+      }
+    ],
+    [
+      {
+        "content": "struct UNICODE_WIDTH_ENTRY\\n{\\n  CHAR16 WChar;\\n  UINT32 Width;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 40154,
+        "endPos": 40220
+      },
+      {
+        "content": "UNICODE_WIDTH_ENTRY",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 40161,
+        "endPos": 40180
+      },
+      {
+        "content": "  UINT32 Width;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 40202,
+        "endPos": 40219
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 40204,
+        "endPos": 40210
+      },
+      {
+        "content": "Width",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 40211,
+        "endPos": 40216
+      }
+    ],
+    [
+      {
+        "content": "struct DEVICE_PATH_TO_TEXT_TABLE\\n{\\n  UINT8 Type;\\n  UINT8 SubType;\\n  DEVICE_PATH_TO_TEXT Function;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 40533,
+        "endPos": 40637
+      },
+      {
+        "content": "DEVICE_PATH_TO_TEXT_TABLE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 40540,
+        "endPos": 40565
+      },
+      {
+        "content": "  DEVICE_PATH_TO_TEXT Function;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 40603,
+        "endPos": 40636
+      },
+      {
+        "content": "DEVICE_PATH_TO_TEXT",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 40605,
+        "endPos": 40624
+      },
+      {
+        "content": "Function",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 40625,
+        "endPos": 40633
+      }
+    ],
+    [
+      {
+        "content": "struct IPv4_ADDRESS\\n{\\n  UINT8 Addr[4];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 40747,
+        "endPos": 40790
+      },
+      {
+        "content": "IPv4_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 40754,
+        "endPos": 40766
+      },
+      {
+        "content": "  UINT8 Addr[4];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 40771,
+        "endPos": 40789
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 40773,
+        "endPos": 40778
+      },
+      {
+        "content": "Addr[4]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 40779,
+        "endPos": 40786
+      },
+      {
+        "content": "[4]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 40783,
+        "endPos": 40786
+      }
+    ],
+    [
+      {
+        "content": "struct IPv6_ADDRESS\\n{\\n  UINT8 Addr[16];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 40806,
+        "endPos": 40850
+      },
+      {
+        "content": "IPv6_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 40813,
+        "endPos": 40825
+      },
+      {
+        "content": "  UINT8 Addr[16];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 40830,
+        "endPos": 40849
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 40832,
+        "endPos": 40837
+      },
+      {
+        "content": "Addr[16]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 40838,
+        "endPos": 40846
+      },
+      {
+        "content": "[16]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 40842,
+        "endPos": 40846
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_STATUS_CODE_DATA\\n{\\n  UINT16 HeaderSize;\\n  UINT16 Size;\\n  EFI_GUID Type;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 40866,
+        "endPos": 40955
+      },
+      {
+        "content": "EFI_STATUS_CODE_DATA",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 40873,
+        "endPos": 40893
+      },
+      {
+        "content": "  EFI_GUID Type;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 40936,
+        "endPos": 40954
+      },
+      {
+        "content": "EFI_GUID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 40938,
+        "endPos": 40946
+      },
+      {
+        "content": "Type",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 40947,
+        "endPos": 40951
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_STATUS_CODE_PROTOCOL\\n{\\n  EFI_REPORT_STATUS_CODE ReportStatusCode;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 41120,
+        "endPos": 41202
+      },
+      {
+        "content": "_EFI_STATUS_CODE_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 41127,
+        "endPos": 41152
+      },
+      {
+        "content": "  EFI_REPORT_STATUS_CODE ReportStatusCode;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 41157,
+        "endPos": 41201
+      },
+      {
+        "content": "EFI_REPORT_STATUS_CODE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 41159,
+        "endPos": 41181
+      },
+      {
+        "content": "ReportStatusCode",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 41182,
+        "endPos": 41198
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_GET_PCD_INFO_PROTOCOL\\n{\\n  EFI_GET_PCD_INFO_PROTOCOL_GET_INFO GetInfo;\\n  EFI_GET_PCD_INFO_PROTOCOL_GET_SKU GetSku;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 41783,
+        "endPos": 41914
+      },
+      {
+        "content": "_EFI_GET_PCD_INFO_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 41790,
+        "endPos": 41816
+      },
+      {
+        "content": "  EFI_GET_PCD_INFO_PROTOCOL_GET_SKU GetSku;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 41868,
+        "endPos": 41913
+      },
+      {
+        "content": "EFI_GET_PCD_INFO_PROTOCOL_GET_SKU",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 41870,
+        "endPos": 41903
+      },
+      {
+        "content": "GetSku",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 41904,
+        "endPos": 41910
+      }
+    ],
+    [
+      {
+        "content": "struct _GET_PCD_INFO_PROTOCOL\\n{\\n  GET_PCD_INFO_PROTOCOL_GET_INFO GetInfo;\\n  GET_PCD_INFO_PROTOCOL_GET_INFO_EX GetInfoEx;\\n  GET_PCD_INFO_PROTOCOL_GET_SKU GetSku;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 42273,
+        "endPos": 42440
+      },
+      {
+        "content": "_GET_PCD_INFO_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 42280,
+        "endPos": 42302
+      },
+      {
+        "content": "  GET_PCD_INFO_PROTOCOL_GET_SKU GetSku;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 42398,
+        "endPos": 42439
+      },
+      {
+        "content": "GET_PCD_INFO_PROTOCOL_GET_SKU",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 42400,
+        "endPos": 42429
+      },
+      {
+        "content": "GetSku",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 42430,
+        "endPos": 42436
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_PCD_PROTOCOL\\n{\\n  EFI_PCD_PROTOCOL_SET_SKU SetSku;\\n  EFI_PCD_PROTOCOL_GET_8 Get8;\\n  EFI_PCD_PROTOCOL_GET_16 Get16;\\n  EFI_PCD_PROTOCOL_GET_32 Get32;\\n  EFI_PCD_PROTOCOL_GET_64 Get64;\\n  EFI_PCD_PROTOCOL_GET_POINTER GetPtr;\\n  EFI_PCD_PROTOCOL_GET_BOOLEAN GetBool;\\n  EFI_PCD_PROTOCOL_GET_SIZE GetSize;\\n  EFI_PCD_PROTOCOL_SET_8 Set8;\\n  EFI_PCD_PROTOCOL_SET_16 Set16;\\n  EFI_PCD_PROTOCOL_SET_32 Set32;\\n  EFI_PCD_PROTOCOL_SET_64 Set64;\\n  EFI_PCD_PROTOCOL_SET_POINTER SetPtr;\\n  EFI_PCD_PROTOCOL_SET_BOOLEAN SetBool;\\n  EFI_PCD_PROTOCOL_CALLBACK_ON_SET CallbackOnSet;\\n  EFI_PCD_PROTOCOL_CANCEL_CALLBACK CancelCallback;\\n  EFI_PCD_PROTOCOL_GET_NEXT_TOKEN GetNextToken;\\n  EFI_PCD_PROTOCOL_GET_NEXT_TOKEN_SPACE GetNextTokenSpace;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 44209,
+        "endPos": 44955
+      },
+      {
+        "content": "_EFI_PCD_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 44216,
+        "endPos": 44233
+      },
+      {
+        "content": "  EFI_PCD_PROTOCOL_GET_NEXT_TOKEN_SPACE GetNextTokenSpace;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 44894,
+        "endPos": 44954
+      },
+      {
+        "content": "EFI_PCD_PROTOCOL_GET_NEXT_TOKEN_SPACE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 44896,
+        "endPos": 44933
+      },
+      {
+        "content": "GetNextTokenSpace",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 44934,
+        "endPos": 44951
+      }
+    ],
+    [
+      {
+        "content": "struct PCD_PROTOCOL\\n{\\n  PCD_PROTOCOL_SET_SKU SetSku;\\n  PCD_PROTOCOL_GET8 Get8;\\n  PCD_PROTOCOL_GET16 Get16;\\n  PCD_PROTOCOL_GET32 Get32;\\n  PCD_PROTOCOL_GET64 Get64;\\n  PCD_PROTOCOL_GET_POINTER GetPtr;\\n  PCD_PROTOCOL_GET_BOOLEAN GetBool;\\n  PCD_PROTOCOL_GET_SIZE GetSize;\\n  PCD_PROTOCOL_GET_EX_8 Get8Ex;\\n  PCD_PROTOCOL_GET_EX_16 Get16Ex;\\n  PCD_PROTOCOL_GET_EX_32 Get32Ex;\\n  PCD_PROTOCOL_GET_EX_64 Get64Ex;\\n  PCD_PROTOCOL_GET_EX_POINTER GetPtrEx;\\n  PCD_PROTOCOL_GET_EX_BOOLEAN GetBoolEx;\\n  PCD_PROTOCOL_GET_EX_SIZE GetSizeEx;\\n  PCD_PROTOCOL_SET8 Set8;\\n  PCD_PROTOCOL_SET16 Set16;\\n  PCD_PROTOCOL_SET32 Set32;\\n  PCD_PROTOCOL_SET64 Set64;\\n  PCD_PROTOCOL_SET_POINTER SetPtr;\\n  PCD_PROTOCOL_SET_BOOLEAN SetBool;\\n  PCD_PROTOCOL_SET_EX_8 Set8Ex;\\n  PCD_PROTOCOL_SET_EX_16 Set16Ex;\\n  PCD_PROTOCOL_SET_EX_32 Set32Ex;\\n  PCD_PROTOCOL_SET_EX_64 Set64Ex;\\n  PCD_PROTOCOL_SET_EX_POINTER SetPtrEx;\\n  PCD_PROTOCOL_SET_EX_BOOLEAN SetBoolEx;\\n  PCD_PROTOCOL_CALLBACK_ONSET CallbackOnSet;\\n  PCD_PROTOCOL_CANCEL_CALLBACK CancelCallback;\\n  PCD_PROTOCOL_GET_NEXT_TOKEN GetNextToken;\\n  PCD_PROTOCOL_GET_NEXT_TOKENSPACE GetNextTokenSpace;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 47540,
+        "endPos": 48680
+      },
+      {
+        "content": "PCD_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 47547,
+        "endPos": 47559
+      },
+      {
+        "content": "  PCD_PROTOCOL_GET_NEXT_TOKENSPACE GetNextTokenSpace;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 48624,
+        "endPos": 48679
+      },
+      {
+        "content": "PCD_PROTOCOL_GET_NEXT_TOKENSPACE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 48626,
+        "endPos": 48658
+      },
+      {
+        "content": "GetNextTokenSpace",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 48659,
+        "endPos": 48676
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_GENERIC_MEMORY_TEST_PROTOCOL\\n{\\n  EFI_MEMORY_TEST_INIT MemoryTestInit;\\n  EFI_PERFORM_MEMORY_TEST PerformMemoryTest;\\n  EFI_MEMORY_TEST_FINISHED Finished;\\n  EFI_MEMORY_TEST_COMPATIBLE_RANGE CompatibleRangeTest;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 49288,
+        "endPos": 49515
+      },
+      {
+        "content": "_EFI_GENERIC_MEMORY_TEST_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 49295,
+        "endPos": 49328
+      },
+      {
+        "content": "  EFI_MEMORY_TEST_COMPATIBLE_RANGE CompatibleRangeTest;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 49457,
+        "endPos": 49514
+      },
+      {
+        "content": "EFI_MEMORY_TEST_COMPATIBLE_RANGE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 49459,
+        "endPos": 49491
+      },
+      {
+        "content": "CompatibleRangeTest",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 49492,
+        "endPos": 49511
+      }
+    ],
+    [
+      {
+        "content": "struct EMU_SYSTEM_CONFIGURATION\\n{\\n  UINT32 ConOutColumn;\\n  UINT32 ConOutRow;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 50057,
+        "endPos": 50139
+      },
+      {
+        "content": "EMU_SYSTEM_CONFIGURATION",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 50064,
+        "endPos": 50088
+      },
+      {
+        "content": "  UINT32 ConOutRow;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 50117,
+        "endPos": 50138
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 50119,
+        "endPos": 50125
+      },
+      {
+        "content": "ConOutRow",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 50126,
+        "endPos": 50135
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_IMAGE_DATA_DIRECTORY\\n{\\n  UINT32 VirtualAddress;\\n  UINT32 Size;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 51007,
+        "endPos": 51086
+      },
+      {
+        "content": "EFI_IMAGE_DATA_DIRECTORY",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 51014,
+        "endPos": 51038
+      },
+      {
+        "content": "  UINT32 Size;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 51069,
+        "endPos": 51085
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 51071,
+        "endPos": 51077
+      },
+      {
+        "content": "Size",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 51078,
+        "endPos": 51082
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_IMAGE_OPTIONAL_HEADER32\\n{\\n  UINT16 Magic;\\n  UINT8 MajorLinkerVersion;\\n  UINT8 MinorLinkerVersion;\\n  UINT32 SizeOfCode;\\n  UINT32 SizeOfInitializedData;\\n  UINT32 SizeOfUninitializedData;\\n  UINT32 AddressOfEntryPoint;\\n  UINT32 BaseOfCode;\\n  UINT32 BaseOfData;\\n  UINT32 ImageBase;\\n  UINT32 SectionAlignment;\\n  UINT32 FileAlignment;\\n  UINT16 MajorOperatingSystemVersion;\\n  UINT16 MinorOperatingSystemVersion;\\n  UINT16 MajorImageVersion;\\n  UINT16 MinorImageVersion;\\n  UINT16 MajorSubsystemVersion;\\n  UINT16 MinorSubsystemVersion;\\n  UINT32 Win32VersionValue;\\n  UINT32 SizeOfImage;\\n  UINT32 SizeOfHeaders;\\n  UINT32 CheckSum;\\n  UINT16 Subsystem;\\n  UINT16 DllCharacteristics;\\n  UINT32 SizeOfStackReserve;\\n  UINT32 SizeOfStackCommit;\\n  UINT32 SizeOfHeapReserve;\\n  UINT32 SizeOfHeapCommit;\\n  UINT32 LoaderFlags;\\n  UINT32 NumberOfRvaAndSizes;\\n  EFI_IMAGE_DATA_DIRECTORY DataDirectory[16];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 51102,
+        "endPos": 52023
+      },
+      {
+        "content": "EFI_IMAGE_OPTIONAL_HEADER32",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 51109,
+        "endPos": 51136
+      },
+      {
+        "content": "  EFI_IMAGE_DATA_DIRECTORY DataDirectory[16];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 51975,
+        "endPos": 52022
+      },
+      {
+        "content": "EFI_IMAGE_DATA_DIRECTORY",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 51977,
+        "endPos": 52001
+      },
+      {
+        "content": "DataDirectory[16]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 52002,
+        "endPos": 52019
+      },
+      {
+        "content": "[16]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 52015,
+        "endPos": 52019
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_IMAGE_FILE_HEADER\\n{\\n  UINT16 Machine;\\n  UINT16 NumberOfSections;\\n  UINT32 TimeDateStamp;\\n  UINT32 PointerToSymbolTable;\\n  UINT32 NumberOfSymbols;\\n  UINT16 SizeOfOptionalHeader;\\n  UINT16 Characteristics;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 52039,
+        "endPos": 52263
+      },
+      {
+        "content": "EFI_IMAGE_FILE_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 52046,
+        "endPos": 52067
+      },
+      {
+        "content": "  UINT16 Characteristics;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 52235,
+        "endPos": 52262
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 52237,
+        "endPos": 52243
+      },
+      {
+        "content": "Characteristics",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 52244,
+        "endPos": 52259
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_IMAGE_OPTIONAL_HEADER64\\n{\\n  UINT16 Magic;\\n  UINT8 MajorLinkerVersion;\\n  UINT8 MinorLinkerVersion;\\n  UINT32 SizeOfCode;\\n  UINT32 SizeOfInitializedData;\\n  UINT32 SizeOfUninitializedData;\\n  UINT32 AddressOfEntryPoint;\\n  UINT32 BaseOfCode;\\n  UINT64 ImageBase;\\n  UINT32 SectionAlignment;\\n  UINT32 FileAlignment;\\n  UINT16 MajorOperatingSystemVersion;\\n  UINT16 MinorOperatingSystemVersion;\\n  UINT16 MajorImageVersion;\\n  UINT16 MinorImageVersion;\\n  UINT16 MajorSubsystemVersion;\\n  UINT16 MinorSubsystemVersion;\\n  UINT32 Win32VersionValue;\\n  UINT32 SizeOfImage;\\n  UINT32 SizeOfHeaders;\\n  UINT32 CheckSum;\\n  UINT16 Subsystem;\\n  UINT16 DllCharacteristics;\\n  UINT64 SizeOfStackReserve;\\n  UINT64 SizeOfStackCommit;\\n  UINT64 SizeOfHeapReserve;\\n  UINT64 SizeOfHeapCommit;\\n  UINT32 LoaderFlags;\\n  UINT32 NumberOfRvaAndSizes;\\n  EFI_IMAGE_DATA_DIRECTORY DataDirectory[16];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 52279,
+        "endPos": 53178
+      },
+      {
+        "content": "EFI_IMAGE_OPTIONAL_HEADER64",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 52286,
+        "endPos": 52313
+      },
+      {
+        "content": "  EFI_IMAGE_DATA_DIRECTORY DataDirectory[16];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 53130,
+        "endPos": 53177
+      },
+      {
+        "content": "EFI_IMAGE_DATA_DIRECTORY",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 53132,
+        "endPos": 53156
+      },
+      {
+        "content": "DataDirectory[16]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 53157,
+        "endPos": 53174
+      },
+      {
+        "content": "[16]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 53170,
+        "endPos": 53174
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_IMAGE_NT_HEADERS64\\n{\\n  UINT32 Signature;\\n  EFI_IMAGE_FILE_HEADER FileHeader;\\n  EFI_IMAGE_OPTIONAL_HEADER64 OptionalHeader;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 53194,
+        "endPos": 53334
+      },
+      {
+        "content": "EFI_IMAGE_NT_HEADERS64",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 53201,
+        "endPos": 53223
+      },
+      {
+        "content": "  EFI_IMAGE_OPTIONAL_HEADER64 OptionalHeader;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 53286,
+        "endPos": 53333
+      },
+      {
+        "content": "EFI_IMAGE_OPTIONAL_HEADER64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 53288,
+        "endPos": 53315
+      },
+      {
+        "content": "OptionalHeader",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 53316,
+        "endPos": 53330
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_IMAGE_NT_HEADERS32\\n{\\n  UINT32 Signature;\\n  EFI_IMAGE_FILE_HEADER FileHeader;\\n  EFI_IMAGE_OPTIONAL_HEADER32 OptionalHeader;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 53350,
+        "endPos": 53490
+      },
+      {
+        "content": "EFI_IMAGE_NT_HEADERS32",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 53357,
+        "endPos": 53379
+      },
+      {
+        "content": "  EFI_IMAGE_OPTIONAL_HEADER32 OptionalHeader;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 53442,
+        "endPos": 53489
+      },
+      {
+        "content": "EFI_IMAGE_OPTIONAL_HEADER32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 53444,
+        "endPos": 53471
+      },
+      {
+        "content": "OptionalHeader",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 53472,
+        "endPos": 53486
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_TE_IMAGE_HEADER\\n{\\n  UINT16 Signature;\\n  UINT16 Machine;\\n  UINT8 NumberOfSections;\\n  UINT8 Subsystem;\\n  UINT16 StrippedSize;\\n  UINT32 AddressOfEntryPoint;\\n  UINT32 BaseOfCode;\\n  UINT64 ImageBase;\\n  EFI_IMAGE_DATA_DIRECTORY DataDirectory[2];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 53506,
+        "endPos": 53769
+      },
+      {
+        "content": "EFI_TE_IMAGE_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 53513,
+        "endPos": 53532
+      },
+      {
+        "content": "  EFI_IMAGE_DATA_DIRECTORY DataDirectory[2];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 53722,
+        "endPos": 53768
+      },
+      {
+        "content": "EFI_IMAGE_DATA_DIRECTORY",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 53724,
+        "endPos": 53748
+      },
+      {
+        "content": "DataDirectory[2]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 53749,
+        "endPos": 53765
+      },
+      {
+        "content": "[2]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 53762,
+        "endPos": 53765
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_IMAGE_DOS_HEADER\\n{\\n  UINT16 e_magic;\\n  UINT16 e_cblp;\\n  UINT16 e_cp;\\n  UINT16 e_crlc;\\n  UINT16 e_cparhdr;\\n  UINT16 e_minalloc;\\n  UINT16 e_maxalloc;\\n  UINT16 e_ss;\\n  UINT16 e_sp;\\n  UINT16 e_csum;\\n  UINT16 e_ip;\\n  UINT16 e_cs;\\n  UINT16 e_lfarlc;\\n  UINT16 e_ovno;\\n  UINT16 e_res[4];\\n  UINT16 e_oemid;\\n  UINT16 e_oeminfo;\\n  UINT16 e_res2[10];\\n  UINT32 e_lfanew;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 53939,
+        "endPos": 54330
+      },
+      {
+        "content": "EFI_IMAGE_DOS_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 53946,
+        "endPos": 53966
+      },
+      {
+        "content": "  UINT32 e_lfanew;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 54309,
+        "endPos": 54329
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 54311,
+        "endPos": 54317
+      },
+      {
+        "content": "e_lfanew",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 54318,
+        "endPos": 54326
+      },
+      {
+        "content": "[10]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 54302,
+        "endPos": 54306
+      }
+    ],
+    [
+      {
+        "content": "struct _EDKII_VARIABLE_LOCK_PROTOCOL\\n{\\n  EDKII_VARIABLE_LOCK_PROTOCOL_REQUEST_TO_LOCK RequestToLock;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 54760,
+        "endPos": 54865
+      },
+      {
+        "content": "_EDKII_VARIABLE_LOCK_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 54767,
+        "endPos": 54796
+      },
+      {
+        "content": "  EDKII_VARIABLE_LOCK_PROTOCOL_REQUEST_TO_LOCK RequestToLock;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 54801,
+        "endPos": 54864
+      },
+      {
+        "content": "EDKII_VARIABLE_LOCK_PROTOCOL_REQUEST_TO_LOCK",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 54803,
+        "endPos": 54847
+      },
+      {
+        "content": "RequestToLock",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 54848,
+        "endPos": 54861
+      }
+    ],
+    [
+      {
+        "content": "struct BM_BOOT_DESCRIPTION_ENTRY\\n{\\n  UINT32 Signature;\\n  LIST_ENTRY Link;\\n  EFI_BOOT_MANAGER_BOOT_DESCRIPTION_HANDLER Handler;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 54881,
+        "endPos": 55014
+      },
+      {
+        "content": "BM_BOOT_DESCRIPTION_ENTRY",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 54888,
+        "endPos": 54913
+      },
+      {
+        "content": "  EFI_BOOT_MANAGER_BOOT_DESCRIPTION_HANDLER Handler;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 54959,
+        "endPos": 55013
+      },
+      {
+        "content": "EFI_BOOT_MANAGER_BOOT_DESCRIPTION_HANDLER",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 54961,
+        "endPos": 55002
+      },
+      {
+        "content": "Handler",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 55003,
+        "endPos": 55010
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_FILE_PROTOCOL\\n{\\n  UINT64 Revision;\\n  EFI_FILE_OPEN Open;\\n  EFI_FILE_CLOSE Close;\\n  EFI_FILE_DELETE Delete;\\n  EFI_FILE_READ Read;\\n  EFI_FILE_WRITE Write;\\n  EFI_FILE_GET_POSITION GetPosition;\\n  EFI_FILE_SET_POSITION SetPosition;\\n  EFI_FILE_GET_INFO GetInfo;\\n  EFI_FILE_SET_INFO SetInfo;\\n  EFI_FILE_FLUSH Flush;\\n  EFI_FILE_OPEN_EX OpenEx;\\n  EFI_FILE_READ_EX ReadEx;\\n  EFI_FILE_WRITE_EX WriteEx;\\n  EFI_FILE_FLUSH_EX FlushEx;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 56555,
+        "endPos": 57006
+      },
+      {
+        "content": "_EFI_FILE_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 56562,
+        "endPos": 56580
+      },
+      {
+        "content": "  EFI_FILE_FLUSH_EX FlushEx;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 56975,
+        "endPos": 57005
+      },
+      {
+        "content": "EFI_FILE_FLUSH_EX",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 56977,
+        "endPos": 56994
+      },
+      {
+        "content": "FlushEx",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 56995,
+        "endPos": 57002
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_SIMPLE_FILE_SYSTEM_PROTOCOL\\n{\\n  UINT64 Revision;\\n  EFI_SIMPLE_FILE_SYSTEM_PROTOCOL_OPEN_VOLUME OpenVolume;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 57248,
+        "endPos": 57372
+      },
+      {
+        "content": "_EFI_SIMPLE_FILE_SYSTEM_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 57255,
+        "endPos": 57287
+      },
+      {
+        "content": "  EFI_SIMPLE_FILE_SYSTEM_PROTOCOL_OPEN_VOLUME OpenVolume;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 57312,
+        "endPos": 57371
+      },
+      {
+        "content": "EFI_SIMPLE_FILE_SYSTEM_PROTOCOL_OPEN_VOLUME",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 57314,
+        "endPos": 57357
+      },
+      {
+        "content": "OpenVolume",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 57358,
+        "endPos": 57368
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_BLOCK_IO_MEDIA\\n{\\n  UINT32 MediaId;\\n  BOOLEAN RemovableMedia;\\n  BOOLEAN MediaPresent;\\n  BOOLEAN LogicalPartition;\\n  BOOLEAN ReadOnly;\\n  BOOLEAN WriteCaching;\\n  UINT32 BlockSize;\\n  UINT32 IoAlign;\\n  EFI_LBA LastBlock;\\n  EFI_LBA LowestAlignedLba;\\n  UINT32 LogicalBlocksPerPhysicalBlock;\\n  UINT32 OptimalTransferLengthGranularity;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 57426,
+        "endPos": 57779
+      },
+      {
+        "content": "EFI_BLOCK_IO_MEDIA",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 57433,
+        "endPos": 57451
+      },
+      {
+        "content": "  UINT32 OptimalTransferLengthGranularity;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 57734,
+        "endPos": 57778
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 57736,
+        "endPos": 57742
+      },
+      {
+        "content": "OptimalTransferLengthGranularity",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 57743,
+        "endPos": 57775
+      }
+    ],
+    [
+      {
+        "content": "struct NVME_ADMIN_CONTROLLER_DATA\\n{\\n  UINT16 Vid;\\n  UINT16 Ssvid;\\n  UINT8 Sn[20];\\n  UINT8 Mn[40];\\n  UINT8 Fr[8];\\n  UINT8 Rab;\\n  UINT8 Ieee_oui[3];\\n  UINT8 Cmic;\\n  UINT8 Mdts;\\n  UINT8 Cntlid[2];\\n  UINT8 Rsvd1[176];\\n  UINT16 Oacs;\\n  UINT8 Acl;\\n  UINT8 Aerl;\\n  UINT8 Frmw;\\n  UINT8 Lpa;\\n  UINT8 Elpe;\\n  UINT8 Npss;\\n  UINT8 Avscc;\\n  UINT8 Apsta;\\n  UINT16 Wctemp;\\n  UINT16 Cctemp;\\n  UINT16 Mtfa;\\n  UINT32 Hmpre;\\n  UINT32 Hmmin;\\n  UINT8 Tnvmcap[16];\\n  UINT8 Rsvd2[216];\\n  UINT8 Sqes;\\n  UINT8 Cqes;\\n  UINT16 Rsvd3;\\n  UINT32 Nn;\\n  UINT16 Oncs;\\n  UINT16 Fuses;\\n  UINT8 Fna;\\n  UINT8 Vwc;\\n  UINT16 Awun;\\n  UINT16 Awupf;\\n  UINT8 Nvscc;\\n  UINT8 Rsvd4;\\n  UINT16 Acwu;\\n  UINT16 Rsvd5;\\n  UINT32 Sgls;\\n  UINT8 Rsvd6[164];\\n  UINT8 Rsvd7[1344];\\n  NVME_PSDESCRIPTOR PsDescriptor[32];\\n  UINT8 VendorData[1024];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 58917,
+        "endPos": 59755
+      },
+      {
+        "content": "NVME_ADMIN_CONTROLLER_DATA",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 58924,
+        "endPos": 58950
+      },
+      {
+        "content": "  UINT8 VendorData[1024];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 59727,
+        "endPos": 59754
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 59729,
+        "endPos": 59734
+      },
+      {
+        "content": "VendorData[1024]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 59735,
+        "endPos": 59751
+      },
+      {
+        "content": "[1024]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 59745,
+        "endPos": 59751
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_NVM_EXPRESS_COMPLETION\\n{\\n  UINT32 DW0;\\n  UINT32 DW1;\\n  UINT32 DW2;\\n  UINT32 DW3;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 59771,
+        "endPos": 59870
+      },
+      {
+        "content": "EFI_NVM_EXPRESS_COMPLETION",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 59778,
+        "endPos": 59804
+      },
+      {
+        "content": "  UINT32 DW3;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 59854,
+        "endPos": 59869
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 59856,
+        "endPos": 59862
+      },
+      {
+        "content": "DW3",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 59863,
+        "endPos": 59866
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_NVM_EXPRESS_COMMAND\\n{\\n  NVME_CDW0 Cdw0;\\n  UINT8 Flags;\\n  UINT32 Nsid;\\n  UINT32 Cdw2;\\n  UINT32 Cdw3;\\n  UINT32 Cdw10;\\n  UINT32 Cdw11;\\n  UINT32 Cdw12;\\n  UINT32 Cdw13;\\n  UINT32 Cdw14;\\n  UINT32 Cdw15;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 60031,
+        "endPos": 60252
+      },
+      {
+        "content": "EFI_NVM_EXPRESS_COMMAND",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 60038,
+        "endPos": 60061
+      },
+      {
+        "content": "  UINT32 Cdw15;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 60234,
+        "endPos": 60251
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 60236,
+        "endPos": 60242
+      },
+      {
+        "content": "Cdw15",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 60243,
+        "endPos": 60248
+      }
+    ],
+    [
+      {
+        "content": "struct MEDIA_RELATIVE_OFFSET_RANGE_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 Reserved;\\n  UINT64 StartingOffset;\\n  UINT64 EndingOffset;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 61006,
+        "endPos": 61164
+      },
+      {
+        "content": "MEDIA_RELATIVE_OFFSET_RANGE_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 61013,
+        "endPos": 61052
+      },
+      {
+        "content": "  UINT64 EndingOffset;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 61139,
+        "endPos": 61163
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 61141,
+        "endPos": 61147
+      },
+      {
+        "content": "EndingOffset",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 61148,
+        "endPos": 61160
+      }
+    ],
+    [
+      {
+        "content": "struct MEDIA_FW_VOL_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  EFI_GUID FvName;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 61180,
+        "endPos": 61273
+      },
+      {
+        "content": "MEDIA_FW_VOL_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 61187,
+        "endPos": 61211
+      },
+      {
+        "content": "  EFI_GUID FvName;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 61252,
+        "endPos": 61272
+      },
+      {
+        "content": "EFI_GUID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 61254,
+        "endPos": 61262
+      },
+      {
+        "content": "FvName",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 61263,
+        "endPos": 61269
+      }
+    ],
+    [
+      {
+        "content": "struct MEDIA_PROTOCOL_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  EFI_GUID Protocol;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 61289,
+        "endPos": 61386
+      },
+      {
+        "content": "MEDIA_PROTOCOL_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 61296,
+        "endPos": 61322
+      },
+      {
+        "content": "  EFI_GUID Protocol;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 61363,
+        "endPos": 61385
+      },
+      {
+        "content": "EFI_GUID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 61365,
+        "endPos": 61373
+      },
+      {
+        "content": "Protocol",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 61374,
+        "endPos": 61382
+      }
+    ],
+    [
+      {
+        "content": "struct FILEPATH_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  CHAR16 PathName[1];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 61402,
+        "endPos": 61494
+      },
+      {
+        "content": "FILEPATH_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 61409,
+        "endPos": 61429
+      },
+      {
+        "content": "  CHAR16 PathName[1];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 61470,
+        "endPos": 61493
+      },
+      {
+        "content": "CHAR16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 61472,
+        "endPos": 61478
+      },
+      {
+        "content": "PathName[1]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 61479,
+        "endPos": 61490
+      },
+      {
+        "content": "[1]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 61487,
+        "endPos": 61490
+      }
+    ],
+    [
+      {
+        "content": "struct CDROM_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 BootEntry;\\n  UINT64 PartitionStart;\\n  UINT64 PartitionSize;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 61510,
+        "endPos": 61648
+      },
+      {
+        "content": "CDROM_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 61517,
+        "endPos": 61534
+      },
+      {
+        "content": "  UINT64 PartitionSize;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 61622,
+        "endPos": 61647
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 61624,
+        "endPos": 61630
+      },
+      {
+        "content": "PartitionSize",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 61631,
+        "endPos": 61644
+      }
+    ],
+    [
+      {
+        "content": "struct EMMC_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 SlotNumber;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 61664,
+        "endPos": 61750
+      },
+      {
+        "content": "EMMC_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 61671,
+        "endPos": 61687
+      },
+      {
+        "content": "  UINT8 SlotNumber;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 61728,
+        "endPos": 61749
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 61730,
+        "endPos": 61735
+      },
+      {
+        "content": "SlotNumber",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 61736,
+        "endPos": 61746
+      }
+    ],
+    [
+      {
+        "content": "struct UFS_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 Pun;\\n  UINT8 Lun;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 61821,
+        "endPos": 61913
+      },
+      {
+        "content": "UFS_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 61828,
+        "endPos": 61843
+      },
+      {
+        "content": "  UINT8 Lun;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 61898,
+        "endPos": 61912
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 61900,
+        "endPos": 61905
+      },
+      {
+        "content": "Lun",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 61906,
+        "endPos": 61909
+      }
+    ],
+    [
+      {
+        "content": "struct WIFI_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 SSId[32];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 61929,
+        "endPos": 62013
+      },
+      {
+        "content": "WIFI_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 61936,
+        "endPos": 61952
+      },
+      {
+        "content": "  UINT8 SSId[32];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 61993,
+        "endPos": 62012
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 61995,
+        "endPos": 62000
+      },
+      {
+        "content": "SSId[32]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 62001,
+        "endPos": 62009
+      },
+      {
+        "content": "[32]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 62005,
+        "endPos": 62009
+      }
+    ],
+    [
+      {
+        "content": "struct BLUETOOTH_ADDRESS\\n{\\n  UINT8 Address[6];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 62029,
+        "endPos": 62080
+      },
+      {
+        "content": "BLUETOOTH_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 62036,
+        "endPos": 62053
+      },
+      {
+        "content": "  UINT8 Address[6];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 62058,
+        "endPos": 62079
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 62060,
+        "endPos": 62065
+      },
+      {
+        "content": "Address[6]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 62066,
+        "endPos": 62076
+      },
+      {
+        "content": "[6]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 62073,
+        "endPos": 62076
+      }
+    ],
+    [
+      {
+        "content": "struct BLUETOOTH_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  BLUETOOTH_ADDRESS BD_ADDR;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 62096,
+        "endPos": 62196
+      },
+      {
+        "content": "BLUETOOTH_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 62103,
+        "endPos": 62124
+      },
+      {
+        "content": "  BLUETOOTH_ADDRESS BD_ADDR;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 62165,
+        "endPos": 62195
+      },
+      {
+        "content": "BLUETOOTH_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 62167,
+        "endPos": 62184
+      },
+      {
+        "content": "BD_ADDR",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 62185,
+        "endPos": 62192
+      }
+    ],
+    [
+      {
+        "content": "struct NVME_NAMESPACE_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 NamespaceId;\\n  UINT64 NamespaceUuid;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 62705,
+        "endPos": 62828
+      },
+      {
+        "content": "NVME_NAMESPACE_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 62712,
+        "endPos": 62738
+      },
+      {
+        "content": "  UINT64 NamespaceUuid;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 62802,
+        "endPos": 62827
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 62804,
+        "endPos": 62810
+      },
+      {
+        "content": "NamespaceUuid",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 62811,
+        "endPos": 62824
+      }
+    ],
+    [
+      {
+        "content": "struct SASEX_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 SasAddress[8];\\n  UINT8 Lun[8];\\n  UINT16 DeviceTopology;\\n  UINT16 RelativeTargetPort;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 62844,
+        "endPos": 63007
+      },
+      {
+        "content": "SASEX_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 62851,
+        "endPos": 62868
+      },
+      {
+        "content": "  UINT16 RelativeTargetPort;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 62976,
+        "endPos": 63006
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 62978,
+        "endPos": 62984
+      },
+      {
+        "content": "RelativeTargetPort",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 62985,
+        "endPos": 63003
+      },
+      {
+        "content": "[8]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 62944,
+        "endPos": 62947
+      }
+    ],
+    [
+      {
+        "content": "struct UART_FLOW_CONTROL_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  EFI_GUID Guid;\\n  UINT32 FlowControlMap;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 63286,
+        "endPos": 63408
+      },
+      {
+        "content": "UART_FLOW_CONTROL_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 63293,
+        "endPos": 63322
+      },
+      {
+        "content": "  UINT32 FlowControlMap;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 63381,
+        "endPos": 63407
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 63383,
+        "endPos": 63389
+      },
+      {
+        "content": "FlowControlMap",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 63390,
+        "endPos": 63404
+      }
+    ],
+    [
+      {
+        "content": "struct INFINIBAND_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 ResourceFlags;\\n  UINT8 PortGid[16];\\n  UINT64 ServiceId;\\n  UINT64 TargetPortId;\\n  UINT64 DeviceId;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 63652,
+        "endPos": 63835
+      },
+      {
+        "content": "INFINIBAND_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 63659,
+        "endPos": 63681
+      },
+      {
+        "content": "  UINT64 DeviceId;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 63814,
+        "endPos": 63834
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 63816,
+        "endPos": 63822
+      },
+      {
+        "content": "DeviceId",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 63823,
+        "endPos": 63831
+      },
+      {
+        "content": "[16]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 63762,
+        "endPos": 63766
+      }
+    ],
+    [
+      {
+        "content": "struct VLAN_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT16 VlanId;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 63851,
+        "endPos": 63934
+      },
+      {
+        "content": "VLAN_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 63858,
+        "endPos": 63874
+      },
+      {
+        "content": "  UINT16 VlanId;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 63915,
+        "endPos": 63933
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 63917,
+        "endPos": 63923
+      },
+      {
+        "content": "VlanId",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 63924,
+        "endPos": 63930
+      }
+    ],
+    [
+      {
+        "content": "struct IPv6_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  EFI_IPv6_ADDRESS LocalIpAddress;\\n  EFI_IPv6_ADDRESS RemoteIpAddress;\\n  UINT16 LocalPort;\\n  UINT16 RemotePort;\\n  UINT16 Protocol;\\n  UINT8 IpAddressOrigin;\\n  UINT8 PrefixLength;\\n  EFI_IPv6_ADDRESS GatewayIpAddress;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 63950,
+        "endPos": 64238
+      },
+      {
+        "content": "IPv6_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 63957,
+        "endPos": 63973
+      },
+      {
+        "content": "  EFI_IPv6_ADDRESS GatewayIpAddress;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 64199,
+        "endPos": 64237
+      },
+      {
+        "content": "EFI_IPv6_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 64201,
+        "endPos": 64217
+      },
+      {
+        "content": "GatewayIpAddress",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 64218,
+        "endPos": 64234
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_MAC_ADDRESS\\n{\\n  UINT8 Addr[32];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 64621,
+        "endPos": 64668
+      },
+      {
+        "content": "EFI_MAC_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 64628,
+        "endPos": 64643
+      },
+      {
+        "content": "  UINT8 Addr[32];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 64648,
+        "endPos": 64667
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 64650,
+        "endPos": 64655
+      },
+      {
+        "content": "Addr[32]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 64656,
+        "endPos": 64664
+      },
+      {
+        "content": "[32]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 64660,
+        "endPos": 64664
+      }
+    ],
+    [
+      {
+        "content": "struct MAC_ADDR_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  EFI_MAC_ADDRESS MacAddress;\\n  UINT8 IfType;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 64684,
+        "endPos": 64801
+      },
+      {
+        "content": "MAC_ADDR_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 64691,
+        "endPos": 64711
+      },
+      {
+        "content": "  UINT8 IfType;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 64783,
+        "endPos": 64800
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 64785,
+        "endPos": 64790
+      },
+      {
+        "content": "IfType",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 64791,
+        "endPos": 64797
+      }
+    ],
+    [
+      {
+        "content": "struct I2O_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 Tid;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 64817,
+        "endPos": 64896
+      },
+      {
+        "content": "I2O_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 64824,
+        "endPos": 64839
+      },
+      {
+        "content": "  UINT32 Tid;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 64880,
+        "endPos": 64895
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 64882,
+        "endPos": 64888
+      },
+      {
+        "content": "Tid",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 64889,
+        "endPos": 64892
+      }
+    ],
+    [
+      {
+        "content": "struct DEVICE_LOGICAL_UNIT_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 Lun;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 64912,
+        "endPos": 65006
+      },
+      {
+        "content": "DEVICE_LOGICAL_UNIT_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 64919,
+        "endPos": 64950
+      },
+      {
+        "content": "  UINT8 Lun;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 64991,
+        "endPos": 65005
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 64993,
+        "endPos": 64998
+      },
+      {
+        "content": "Lun",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 64999,
+        "endPos": 65002
+      }
+    ],
+    [
+      {
+        "content": "struct USB_WWID_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT16 InterfaceNumber;\\n  UINT16 VendorId;\\n  UINT16 ProductId;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 65022,
+        "endPos": 65159
+      },
+      {
+        "content": "USB_WWID_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 65029,
+        "endPos": 65049
+      },
+      {
+        "content": "  UINT16 ProductId;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 65137,
+        "endPos": 65158
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 65139,
+        "endPos": 65145
+      },
+      {
+        "content": "ProductId",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 65146,
+        "endPos": 65155
+      }
+    ],
+    [
+      {
+        "content": "struct SATA_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT16 HBAPortNumber;\\n  UINT16 PortMultiplierPortNumber;\\n  UINT16 Lun;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 65426,
+        "endPos": 65567
+      },
+      {
+        "content": "SATA_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 65433,
+        "endPos": 65449
+      },
+      {
+        "content": "  UINT16 Lun;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 65551,
+        "endPos": 65566
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 65553,
+        "endPos": 65559
+      },
+      {
+        "content": "Lun",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 65560,
+        "endPos": 65563
+      }
+    ],
+    [
+      {
+        "content": "struct USB_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 ParentPortNumber;\\n  UINT8 InterfaceNumber;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 65583,
+        "endPos": 65700
+      },
+      {
+        "content": "USB_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 65590,
+        "endPos": 65605
+      },
+      {
+        "content": "  UINT8 InterfaceNumber;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 65673,
+        "endPos": 65699
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 65675,
+        "endPos": 65680
+      },
+      {
+        "content": "InterfaceNumber",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 65681,
+        "endPos": 65696
+      }
+    ],
+    [
+      {
+        "content": "struct F1394_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 Reserved;\\n  UINT64 Guid;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 65716,
+        "endPos": 65818
+      },
+      {
+        "content": "F1394_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 65723,
+        "endPos": 65740
+      },
+      {
+        "content": "  UINT64 Guid;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 65801,
+        "endPos": 65817
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 65803,
+        "endPos": 65809
+      },
+      {
+        "content": "Guid",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 65810,
+        "endPos": 65814
+      }
+    ],
+    [
+      {
+        "content": "struct FIBRECHANNELEX_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 Reserved;\\n  UINT8 WWN[8];\\n  UINT8 Lun[8];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 65834,
+        "endPos": 65963
+      },
+      {
+        "content": "FIBRECHANNELEX_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 65841,
+        "endPos": 65867
+      },
+      {
+        "content": "  UINT8 Lun[8];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 65945,
+        "endPos": 65962
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 65947,
+        "endPos": 65952
+      },
+      {
+        "content": "Lun[8]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 65953,
+        "endPos": 65959
+      },
+      {
+        "content": "[8]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 65956,
+        "endPos": 65959
+      }
+    ],
+    [
+      {
+        "content": "struct FIBRECHANNEL_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 Reserved;\\n  UINT64 WWN;\\n  UINT64 Lun;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 65979,
+        "endPos": 66102
+      },
+      {
+        "content": "FIBRECHANNEL_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 65986,
+        "endPos": 66010
+      },
+      {
+        "content": "  UINT64 Lun;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 66086,
+        "endPos": 66101
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 66088,
+        "endPos": 66094
+      },
+      {
+        "content": "Lun",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 66095,
+        "endPos": 66098
+      }
+    ],
+    [
+      {
+        "content": "struct SCSI_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT16 Pun;\\n  UINT16 Lun;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 66349,
+        "endPos": 66444
+      },
+      {
+        "content": "SCSI_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 66356,
+        "endPos": 66372
+      },
+      {
+        "content": "  UINT16 Lun;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 66428,
+        "endPos": 66443
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 66430,
+        "endPos": 66436
+      },
+      {
+        "content": "Lun",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 66437,
+        "endPos": 66440
+      }
+    ],
+    [
+      {
+        "content": "struct ATAPI_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 PrimarySecondary;\\n  UINT8 SlaveMaster;\\n  UINT16 Lun;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 66460,
+        "endPos": 66590
+      },
+      {
+        "content": "ATAPI_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 66467,
+        "endPos": 66484
+      },
+      {
+        "content": "  UINT16 Lun;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 66574,
+        "endPos": 66589
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 66576,
+        "endPos": 66582
+      },
+      {
+        "content": "Lun",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 66583,
+        "endPos": 66586
+      }
+    ],
+    [
+      {
+        "content": "struct ACPI_ADR_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 ADR;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 66606,
+        "endPos": 66690
+      },
+      {
+        "content": "ACPI_ADR_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 66613,
+        "endPos": 66633
+      },
+      {
+        "content": "  UINT32 ADR;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 66674,
+        "endPos": 66689
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 66676,
+        "endPos": 66682
+      },
+      {
+        "content": "ADR",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 66683,
+        "endPos": 66686
+      }
+    ],
+    [
+      {
+        "content": "struct ACPI_EXTENDED_HID_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 HID;\\n  UINT32 UID;\\n  UINT32 CID;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 66706,
+        "endPos": 66829
+      },
+      {
+        "content": "ACPI_EXTENDED_HID_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 66713,
+        "endPos": 66742
+      },
+      {
+        "content": "  UINT32 CID;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 66813,
+        "endPos": 66828
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 66815,
+        "endPos": 66821
+      },
+      {
+        "content": "CID",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 66822,
+        "endPos": 66825
+      }
+    ],
+    [
+      {
+        "content": "struct ACPI_HID_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 HID;\\n  UINT32 UID;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 66845,
+        "endPos": 66944
+      },
+      {
+        "content": "ACPI_HID_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 66852,
+        "endPos": 66872
+      },
+      {
+        "content": "  UINT32 UID;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 66928,
+        "endPos": 66943
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 66930,
+        "endPos": 66936
+      },
+      {
+        "content": "UID",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 66937,
+        "endPos": 66940
+      }
+    ],
+    [
+      {
+        "content": "struct BMC_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 InterfaceType;\\n  UINT8 BaseAddress[8];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 66960,
+        "endPos": 67073
+      },
+      {
+        "content": "BMC_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 66967,
+        "endPos": 66982
+      },
+      {
+        "content": "  UINT8 BaseAddress[8];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 67047,
+        "endPos": 67072
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 67049,
+        "endPos": 67054
+      },
+      {
+        "content": "BaseAddress[8]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 67055,
+        "endPos": 67069
+      },
+      {
+        "content": "[8]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 67066,
+        "endPos": 67069
+      }
+    ],
+    [
+      {
+        "content": "struct CONTROLLER_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 ControllerNumber;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 67089,
+        "endPos": 67188
+      },
+      {
+        "content": "CONTROLLER_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 67096,
+        "endPos": 67118
+      },
+      {
+        "content": "  UINT32 ControllerNumber;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 67159,
+        "endPos": 67187
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 67161,
+        "endPos": 67167
+      },
+      {
+        "content": "ControllerNumber",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 67168,
+        "endPos": 67184
+      }
+    ],
+    [
+      {
+        "content": "struct MEMMAP_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT32 MemoryType;\\n  EFI_PHYSICAL_ADDRESS StartingAddress;\\n  EFI_PHYSICAL_ADDRESS EndingAddress;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 67204,
+        "endPos": 67373
+      },
+      {
+        "content": "MEMMAP_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 67211,
+        "endPos": 67229
+      },
+      {
+        "content": "  EFI_PHYSICAL_ADDRESS EndingAddress;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 67333,
+        "endPos": 67372
+      },
+      {
+        "content": "EFI_PHYSICAL_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 67335,
+        "endPos": 67355
+      },
+      {
+        "content": "EndingAddress",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 67356,
+        "endPos": 67369
+      }
+    ],
+    [
+      {
+        "content": "struct PCCARD_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 FunctionNumber;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 67389,
+        "endPos": 67481
+      },
+      {
+        "content": "PCCARD_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 67396,
+        "endPos": 67414
+      },
+      {
+        "content": "  UINT8 FunctionNumber;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 67455,
+        "endPos": 67480
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 67457,
+        "endPos": 67462
+      },
+      {
+        "content": "FunctionNumber",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 67463,
+        "endPos": 67477
+      }
+    ],
+    [
+      {
+        "content": "struct PCI_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  UINT8 Function;\\n  UINT8 Device;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 67497,
+        "endPos": 67597
+      },
+      {
+        "content": "PCI_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 67504,
+        "endPos": 67519
+      },
+      {
+        "content": "  UINT8 Device;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 67579,
+        "endPos": 67596
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 67581,
+        "endPos": 67586
+      },
+      {
+        "content": "Device",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 67587,
+        "endPos": 67593
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_NVM_EXPRESS_PASS_THRU_MODE\\n{\\n  UINT32 Attributes;\\n  UINT32 IoAlign;\\n  UINT32 NvmeVersion;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 69286,
+        "endPos": 69393
+      },
+      {
+        "content": "EFI_NVM_EXPRESS_PASS_THRU_MODE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 69293,
+        "endPos": 69323
+      },
+      {
+        "content": "  UINT32 NvmeVersion;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 69369,
+        "endPos": 69392
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 69371,
+        "endPos": 69377
+      },
+      {
+        "content": "NvmeVersion",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 69378,
+        "endPos": 69389
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_LOAD_FILE_PROTOCOL\\n{\\n  EFI_LOAD_FILE LoadFile;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 70656,
+        "endPos": 70719
+      },
+      {
+        "content": "_EFI_LOAD_FILE_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 70663,
+        "endPos": 70686
+      },
+      {
+        "content": "  EFI_LOAD_FILE LoadFile;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 70691,
+        "endPos": 70718
+      },
+      {
+        "content": "EFI_LOAD_FILE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 70693,
+        "endPos": 70706
+      },
+      {
+        "content": "LoadFile",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 70707,
+        "endPos": 70715
+      }
+    ],
+    [
+      {
+        "content": "struct USB_DEVICE_DESCRIPTOR\\n{\\n  UINT8 Length;\\n  UINT8 DescriptorType;\\n  UINT16 BcdUSB;\\n  UINT8 DeviceClass;\\n  UINT8 DeviceSubClass;\\n  UINT8 DeviceProtocol;\\n  UINT8 MaxPacketSize0;\\n  UINT16 IdVendor;\\n  UINT16 IdProduct;\\n  UINT16 BcdDevice;\\n  UINT8 StrManufacturer;\\n  UINT8 StrProduct;\\n  UINT8 StrSerialNumber;\\n  UINT8 NumConfigurations;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 70735,
+        "endPos": 71089
+      },
+      {
+        "content": "USB_DEVICE_DESCRIPTOR",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 70742,
+        "endPos": 70763
+      },
+      {
+        "content": "  UINT8 NumConfigurations;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 71060,
+        "endPos": 71088
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 71062,
+        "endPos": 71067
+      },
+      {
+        "content": "NumConfigurations",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 71068,
+        "endPos": 71085
+      }
+    ],
+    [
+      {
+        "content": "struct USB_INTERFACE_DESCRIPTOR\\n{\\n  UINT8 Length;\\n  UINT8 DescriptorType;\\n  UINT8 InterfaceNumber;\\n  UINT8 AlternateSetting;\\n  UINT8 NumEndpoints;\\n  UINT8 InterfaceClass;\\n  UINT8 InterfaceSubClass;\\n  UINT8 InterfaceProtocol;\\n  UINT8 Interface;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 71488,
+        "endPos": 71744
+      },
+      {
+        "content": "USB_INTERFACE_DESCRIPTOR",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 71495,
+        "endPos": 71519
+      },
+      {
+        "content": "  UINT8 Interface;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 71723,
+        "endPos": 71743
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 71725,
+        "endPos": 71730
+      },
+      {
+        "content": "Interface",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 71731,
+        "endPos": 71740
+      }
+    ],
+    [
+      {
+        "content": "struct USB_DEVICE_REQUEST\\n{\\n  UINT8 RequestType;\\n  UINT8 Request;\\n  UINT16 Value;\\n  UINT16 Index;\\n  UINT16 Length;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 72421,
+        "endPos": 72544
+      },
+      {
+        "content": "USB_DEVICE_REQUEST",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 72428,
+        "endPos": 72446
+      },
+      {
+        "content": "  UINT16 Length;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 72525,
+        "endPos": 72543
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 72527,
+        "endPos": 72533
+      },
+      {
+        "content": "Length",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 72534,
+        "endPos": 72540
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_USB_IO_PROTOCOL\\n{\\n  EFI_USB_IO_CONTROL_TRANSFER UsbControlTransfer;\\n  EFI_USB_IO_BULK_TRANSFER UsbBulkTransfer;\\n  EFI_USB_IO_ASYNC_INTERRUPT_TRANSFER UsbAsyncInterruptTransfer;\\n  EFI_USB_IO_SYNC_INTERRUPT_TRANSFER UsbSyncInterruptTransfer;\\n  EFI_USB_IO_ISOCHRONOUS_TRANSFER UsbIsochronousTransfer;\\n  EFI_USB_IO_ASYNC_ISOCHRONOUS_TRANSFER UsbAsyncIsochronousTransfer;\\n  EFI_USB_IO_GET_DEVICE_DESCRIPTOR UsbGetDeviceDescriptor;\\n  EFI_USB_IO_GET_CONFIG_DESCRIPTOR UsbGetConfigDescriptor;\\n  EFI_USB_IO_GET_INTERFACE_DESCRIPTOR UsbGetInterfaceDescriptor;\\n  EFI_USB_IO_GET_ENDPOINT_DESCRIPTOR UsbGetEndpointDescriptor;\\n  EFI_USB_IO_GET_STRING_DESCRIPTOR UsbGetStringDescriptor;\\n  EFI_USB_IO_GET_SUPPORTED_LANGUAGE UsbGetSupportedLanguages;\\n  EFI_USB_IO_PORT_RESET UsbPortReset;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 74395,
+        "endPos": 75195
+      },
+      {
+        "content": "_EFI_USB_IO_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 74402,
+        "endPos": 74422
+      },
+      {
+        "content": "  EFI_USB_IO_PORT_RESET UsbPortReset;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 75155,
+        "endPos": 75194
+      },
+      {
+        "content": "EFI_USB_IO_PORT_RESET",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 75157,
+        "endPos": 75178
+      },
+      {
+        "content": "UsbPortReset",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 75179,
+        "endPos": 75191
+      }
+    ],
+    [
+      {
+        "content": "struct ATAPI_IDENTIFY_DATA\\n{\\n  UINT16 config;\\n  UINT16 reserved_1;\\n  UINT16 specific_config;\\n  UINT16 reserved_3_9[7];\\n  CHAR8 SerialNo[20];\\n  UINT16 reserved_20_22[3];\\n  CHAR8 FirmwareVer[8];\\n  CHAR8 ModelName[40];\\n  UINT16 reserved_47_48[2];\\n  UINT16 capabilities_49;\\n  UINT16 capabilities_50;\\n  UINT16 obsolete_51;\\n  UINT16 reserved_52;\\n  UINT16 field_validity;\\n  UINT16 reserved_54_61[8];\\n  UINT16 dma_dir;\\n  UINT16 multi_word_dma_mode;\\n  UINT16 advanced_pio_modes;\\n  UINT16 min_multi_word_dma_cycle_time;\\n  UINT16 rec_multi_word_dma_cycle_time;\\n  UINT16 min_pio_cycle_time_without_flow_control;\\n  UINT16 min_pio_cycle_time_with_flow_control;\\n  UINT16 reserved_69_70[2];\\n  UINT16 obsolete_71_72[2];\\n  UINT16 reserved_73_74[2];\\n  UINT16 obsolete_75;\\n  UINT16 serial_ata_capabilities;\\n  UINT16 reserved_77;\\n  UINT16 serial_ata_features_supported;\\n  UINT16 serial_ata_features_enabled;\\n  UINT16 major_version_no;\\n  UINT16 minor_version_no;\\n  UINT16 cmd_set_support_82;\\n  UINT16 cmd_set_support_83;\\n  UINT16 cmd_feature_support;\\n  UINT16 cmd_feature_enable_85;\\n  UINT16 cmd_feature_enable_86;\\n  UINT16 cmd_feature_default;\\n  UINT16 ultra_dma_select;\\n  UINT16 time_required_for_sec_erase;\\n  UINT16 time_required_for_enhanced_sec_erase;\\n  UINT16 advanced_power_management_level;\\n  UINT16 master_pwd_revison_code;\\n  UINT16 hardware_reset_result;\\n  UINT16 obsolete_94;\\n  UINT16 reserved_95_107[13];\\n  UINT16 world_wide_name[4];\\n  UINT16 reserved_for_128bit_wwn_112_115[4];\\n  UINT16 reserved_116_118[3];\\n  UINT16 command_and_feature_sets_supported;\\n  UINT16 command_and_feature_sets_supported_enabled;\\n  UINT16 reserved_121_124[4];\\n  UINT16 atapi_byte_count_0_behavior;\\n  UINT16 obsolete_126_127[2];\\n  UINT16 security_status;\\n  UINT16 reserved_129_159[31];\\n  UINT16 cfa_reserved_160_175[16];\\n  UINT16 reserved_176_221[46];\\n  UINT16 transport_major_version;\\n  UINT16 transport_minor_version;\\n  UINT16 reserved_224_254[31];\\n  UINT16 integrity_word;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 75518,
+        "endPos": 77525
+      },
+      {
+        "content": "ATAPI_IDENTIFY_DATA",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 75525,
+        "endPos": 75544
+      },
+      {
+        "content": "  UINT16 integrity_word;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 77498,
+        "endPos": 77524
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 77500,
+        "endPos": 77506
+      },
+      {
+        "content": "integrity_word",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 77507,
+        "endPos": 77521
+      },
+      {
+        "content": "[31]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 77491,
+        "endPos": 77495
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_DISK_INFO_PROTOCOL\\n{\\n  EFI_GUID Interface;\\n  EFI_DISK_INFO_INQUIRY Inquiry;\\n  EFI_DISK_INFO_IDENTIFY Identify;\\n  EFI_DISK_INFO_SENSE_DATA SenseData;\\n  EFI_DISK_INFO_WHICH_IDE WhichIde;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 78107,
+        "endPos": 78312
+      },
+      {
+        "content": "_EFI_DISK_INFO_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 78114,
+        "endPos": 78137
+      },
+      {
+        "content": "  EFI_DISK_INFO_WHICH_IDE WhichIde;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 78274,
+        "endPos": 78311
+      },
+      {
+        "content": "EFI_DISK_INFO_WHICH_IDE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 78276,
+        "endPos": 78299
+      },
+      {
+        "content": "WhichIde",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 78300,
+        "endPos": 78308
+      }
+    ],
+    [
+      {
+        "content": "struct _EDKII_PLATFORM_BOOT_MANAGER_PROTOCOL\\n{\\n  UINT64 Revision;\\n  PLATFORM_BOOT_MANAGER_REFRESH_ALL_BOOT_OPTIONS RefreshAllBootOptions;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 78499,
+        "endPos": 78642
+      },
+      {
+        "content": "_EDKII_PLATFORM_BOOT_MANAGER_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 78506,
+        "endPos": 78543
+      },
+      {
+        "content": "  PLATFORM_BOOT_MANAGER_REFRESH_ALL_BOOT_OPTIONS RefreshAllBootOptions;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 78568,
+        "endPos": 78641
+      },
+      {
+        "content": "PLATFORM_BOOT_MANAGER_REFRESH_ALL_BOOT_OPTIONS",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 78570,
+        "endPos": 78616
+      },
+      {
+        "content": "RefreshAllBootOptions",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 78617,
+        "endPos": 78638
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_BOOT_LOGO_PROTOCOL\\n{\\n  EFI_SET_BOOT_LOGO SetBootLogo;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 78968,
+        "endPos": 79038
+      },
+      {
+        "content": "_EFI_BOOT_LOGO_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 78975,
+        "endPos": 78998
+      },
+      {
+        "content": "  EFI_SET_BOOT_LOGO SetBootLogo;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 79003,
+        "endPos": 79037
+      },
+      {
+        "content": "EFI_SET_BOOT_LOGO",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 79005,
+        "endPos": 79022
+      },
+      {
+        "content": "SetBootLogo",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 79023,
+        "endPos": 79034
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_RETURN_STATUS_EXTENDED_DATA\\n{\\n  EFI_STATUS_CODE_DATA DataHeader;\\n  EFI_STATUS ReturnStatus;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 79054,
+        "endPos": 79162
+      },
+      {
+        "content": "EFI_RETURN_STATUS_EXTENDED_DATA",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 79061,
+        "endPos": 79092
+      },
+      {
+        "content": "  EFI_STATUS ReturnStatus;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 79133,
+        "endPos": 79161
+      },
+      {
+        "content": "EFI_STATUS",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 79135,
+        "endPos": 79145
+      },
+      {
+        "content": "ReturnStatus",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 79146,
+        "endPos": 79158
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_ACPI_COMMON_HEADER\\n{\\n  UINT32 Signature;\\n  UINT32 Length;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 80147,
+        "endPos": 80221
+      },
+      {
+        "content": "EFI_ACPI_COMMON_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 80154,
+        "endPos": 80176
+      },
+      {
+        "content": "  UINT32 Length;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 80202,
+        "endPos": 80220
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 80204,
+        "endPos": 80210
+      },
+      {
+        "content": "Length",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 80211,
+        "endPos": 80217
+      }
+    ],
+    [
+      {
+        "content": "struct PCI_DEVICE_INDEPENDENT_REGION\\n{\\n  UINT16 VendorId;\\n  UINT16 DeviceId;\\n  UINT16 Command;\\n  UINT16 Status;\\n  UINT8 RevisionID;\\n  UINT8 ClassCode[3];\\n  UINT8 CacheLineSize;\\n  UINT8 LatencyTimer;\\n  UINT8 HeaderType;\\n  UINT8 BIST;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 82449,
+        "endPos": 82695
+      },
+      {
+        "content": "PCI_DEVICE_INDEPENDENT_REGION",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 82456,
+        "endPos": 82485
+      },
+      {
+        "content": "  UINT8 BIST;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 82679,
+        "endPos": 82694
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 82681,
+        "endPos": 82686
+      },
+      {
+        "content": "BIST",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 82687,
+        "endPos": 82691
+      },
+      {
+        "content": "[3]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 82605,
+        "endPos": 82608
+      }
+    ],
+    [
+      {
+        "content": "struct PCI_DEVICE_HEADER_TYPE_REGION\\n{\\n  UINT32 Bar[6];\\n  UINT32 CISPtr;\\n  UINT16 SubsystemVendorID;\\n  UINT16 SubsystemID;\\n  UINT32 ExpansionRomBar;\\n  UINT8 CapabilityPtr;\\n  UINT8 Reserved1[3];\\n  UINT32 Reserved2;\\n  UINT8 InterruptLine;\\n  UINT8 InterruptPin;\\n  UINT8 MinGnt;\\n  UINT8 MaxLat;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 82711,
+        "endPos": 83017
+      },
+      {
+        "content": "PCI_DEVICE_HEADER_TYPE_REGION",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 82718,
+        "endPos": 82747
+      },
+      {
+        "content": "  UINT8 MaxLat;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 82999,
+        "endPos": 83016
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 83001,
+        "endPos": 83006
+      },
+      {
+        "content": "MaxLat",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 83007,
+        "endPos": 83013
+      },
+      {
+        "content": "[3]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 82908,
+        "endPos": 82911
+      }
+    ],
+    [
+      {
+        "content": "struct PCI_TYPE00\\n{\\n  PCI_DEVICE_INDEPENDENT_REGION Hdr;\\n  PCI_DEVICE_HEADER_TYPE_REGION Device;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 83033,
+        "endPos": 83135
+      },
+      {
+        "content": "PCI_TYPE00",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 83040,
+        "endPos": 83050
+      },
+      {
+        "content": "  PCI_DEVICE_HEADER_TYPE_REGION Device;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 83093,
+        "endPos": 83134
+      },
+      {
+        "content": "PCI_DEVICE_HEADER_TYPE_REGION",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 83095,
+        "endPos": 83124
+      },
+      {
+        "content": "Device",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 83125,
+        "endPos": 83131
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_PCI_IO_PROTOCOL_ACCESS\\n{\\n  EFI_PCI_IO_PROTOCOL_IO_MEM Read;\\n  EFI_PCI_IO_PROTOCOL_IO_MEM Write;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 84709,
+        "endPos": 84821
+      },
+      {
+        "content": "EFI_PCI_IO_PROTOCOL_ACCESS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 84716,
+        "endPos": 84742
+      },
+      {
+        "content": "  EFI_PCI_IO_PROTOCOL_IO_MEM Write;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 84783,
+        "endPos": 84820
+      },
+      {
+        "content": "EFI_PCI_IO_PROTOCOL_IO_MEM",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 84785,
+        "endPos": 84811
+      },
+      {
+        "content": "Write",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 84812,
+        "endPos": 84817
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_PCI_IO_PROTOCOL_CONFIG_ACCESS\\n{\\n  EFI_PCI_IO_PROTOCOL_CONFIG Read;\\n  EFI_PCI_IO_PROTOCOL_CONFIG Write;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 84974,
+        "endPos": 85093
+      },
+      {
+        "content": "EFI_PCI_IO_PROTOCOL_CONFIG_ACCESS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 84981,
+        "endPos": 85014
+      },
+      {
+        "content": "  EFI_PCI_IO_PROTOCOL_CONFIG Write;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 85055,
+        "endPos": 85092
+      },
+      {
+        "content": "EFI_PCI_IO_PROTOCOL_CONFIG",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 85057,
+        "endPos": 85083
+      },
+      {
+        "content": "Write",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 85084,
+        "endPos": 85089
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_DEFERRED_IMAGE_LOAD_PROTOCOL\\n{\\n  EFI_DEFERRED_IMAGE_INFO GetImageInfo;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 87273,
+        "endPos": 87360
+      },
+      {
+        "content": "_EFI_DEFERRED_IMAGE_LOAD_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 87280,
+        "endPos": 87313
+      },
+      {
+        "content": "  EFI_DEFERRED_IMAGE_INFO GetImageInfo;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 87318,
+        "endPos": 87359
+      },
+      {
+        "content": "EFI_DEFERRED_IMAGE_INFO",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 87320,
+        "endPos": 87343
+      },
+      {
+        "content": "GetImageInfo",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 87344,
+        "endPos": 87356
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_GENERIC_HEADER\\n{\\n  UINT16 HobType;\\n  UINT16 HobLength;\\n  UINT32 Reserved;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 87561,
+        "endPos": 87656
+      },
+      {
+        "content": "EFI_HOB_GENERIC_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 87568,
+        "endPos": 87590
+      },
+      {
+        "content": "  UINT32 Reserved;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 87635,
+        "endPos": 87655
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 87637,
+        "endPos": 87643
+      },
+      {
+        "content": "Reserved",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 87644,
+        "endPos": 87652
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_GUID_TYPE\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n  EFI_GUID Name;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 87672,
+        "endPos": 87754
+      },
+      {
+        "content": "EFI_HOB_GUID_TYPE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 87679,
+        "endPos": 87696
+      },
+      {
+        "content": "  EFI_GUID Name;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 87735,
+        "endPos": 87753
+      },
+      {
+        "content": "EFI_GUID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 87737,
+        "endPos": 87745
+      },
+      {
+        "content": "Name",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 87746,
+        "endPos": 87750
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_MEMORY_TYPE_INFORMATION\\n{\\n  UINT32 Type;\\n  UINT32 NumberOfPages;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 87770,
+        "endPos": 87851
+      },
+      {
+        "content": "EFI_MEMORY_TYPE_INFORMATION",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 87777,
+        "endPos": 87804
+      },
+      {
+        "content": "  UINT32 NumberOfPages;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 87825,
+        "endPos": 87850
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 87827,
+        "endPos": 87833
+      },
+      {
+        "content": "NumberOfPages",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 87834,
+        "endPos": 87847
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_UGA_DRAW_PROTOCOL\\n{\\n  EFI_UGA_DRAW_PROTOCOL_GET_MODE GetMode;\\n  EFI_UGA_DRAW_PROTOCOL_SET_MODE SetMode;\\n  EFI_UGA_DRAW_PROTOCOL_BLT Blt;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 88639,
+        "endPos": 88794
+      },
+      {
+        "content": "_EFI_UGA_DRAW_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 88646,
+        "endPos": 88668
+      },
+      {
+        "content": "  EFI_UGA_DRAW_PROTOCOL_BLT Blt;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 88759,
+        "endPos": 88793
+      },
+      {
+        "content": "EFI_UGA_DRAW_PROTOCOL_BLT",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 88761,
+        "endPos": 88786
+      },
+      {
+        "content": "Blt",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 88787,
+        "endPos": 88790
+      }
+    ],
+    [
+      {
+        "content": "struct _EDKII_BOOT_LOGO2_PROTOCOL\\n{\\n  EDKII_SET_BOOT_LOGO2 SetBootLogo;\\n  EDKII_GET_BOOT_LOGO2 GetBootLogo;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 89191,
+        "endPos": 89304
+      },
+      {
+        "content": "_EDKII_BOOT_LOGO2_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 89198,
+        "endPos": 89224
+      },
+      {
+        "content": "  EDKII_GET_BOOT_LOGO2 GetBootLogo;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 89266,
+        "endPos": 89303
+      },
+      {
+        "content": "EDKII_GET_BOOT_LOGO2",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 89268,
+        "endPos": 89288
+      },
+      {
+        "content": "GetBootLogo",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 89289,
+        "endPos": 89300
+      }
+    ],
+    [
+      {
+        "content": "struct _EDKII_PLATFORM_LOGO_PROTOCOL\\n{\\n  EDKII_PLATFORM_LOGO_GET_IMAGE GetImage;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 90141,
+        "endPos": 90226
+      },
+      {
+        "content": "_EDKII_PLATFORM_LOGO_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 90148,
+        "endPos": 90177
+      },
+      {
+        "content": "  EDKII_PLATFORM_LOGO_GET_IMAGE GetImage;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 90182,
+        "endPos": 90225
+      },
+      {
+        "content": "EDKII_PLATFORM_LOGO_GET_IMAGE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 90184,
+        "endPos": 90213
+      },
+      {
+        "content": "GetImage",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 90214,
+        "endPos": 90222
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_FORM\\n{\\n  EFI_IFR_OP_HEADER Header;\\n  UINT16 FormId;\\n  EFI_STRING_ID FormTitle;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 90242,
+        "endPos": 90343
+      },
+      {
+        "content": "_EFI_IFR_FORM",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 90249,
+        "endPos": 90262
+      },
+      {
+        "content": "  EFI_STRING_ID FormTitle;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 90314,
+        "endPos": 90342
+      },
+      {
+        "content": "EFI_STRING_ID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 90316,
+        "endPos": 90329
+      },
+      {
+        "content": "FormTitle",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 90330,
+        "endPos": 90339
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_STATEMENT_HEADER\\n{\\n  EFI_STRING_ID Prompt;\\n  EFI_STRING_ID Help;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 90517,
+        "endPos": 90603
+      },
+      {
+        "content": "_EFI_IFR_STATEMENT_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 90524,
+        "endPos": 90549
+      },
+      {
+        "content": "  EFI_STRING_ID Help;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 90579,
+        "endPos": 90602
+      },
+      {
+        "content": "EFI_STRING_ID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 90581,
+        "endPos": 90594
+      },
+      {
+        "content": "Help",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 90595,
+        "endPos": 90599
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_TIME\\n{\\n  EFI_IFR_OP_HEADER Header;\\n  EFI_IFR_QUESTION_HEADER Question;\\n  UINT8 Flags;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 91035,
+        "endPos": 91143
+      },
+      {
+        "content": "_EFI_IFR_TIME",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 91042,
+        "endPos": 91055
+      },
+      {
+        "content": "  UINT8 Flags;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 91126,
+        "endPos": 91142
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 91128,
+        "endPos": 91133
+      },
+      {
+        "content": "Flags",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 91134,
+        "endPos": 91139
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_DATE\\n{\\n  EFI_IFR_OP_HEADER Header;\\n  EFI_IFR_QUESTION_HEADER Question;\\n  UINT8 Flags;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 91209,
+        "endPos": 91317
+      },
+      {
+        "content": "_EFI_IFR_DATE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 91216,
+        "endPos": 91229
+      },
+      {
+        "content": "  UINT8 Flags;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 91300,
+        "endPos": 91316
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 91302,
+        "endPos": 91307
+      },
+      {
+        "content": "Flags",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 91308,
+        "endPos": 91313
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_TEXT\\n{\\n  EFI_IFR_OP_HEADER Header;\\n  EFI_IFR_STATEMENT_HEADER Statement;\\n  EFI_STRING_ID TextTwo;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 91383,
+        "endPos": 91503
+      },
+      {
+        "content": "_EFI_IFR_TEXT",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 91390,
+        "endPos": 91403
+      },
+      {
+        "content": "  EFI_STRING_ID TextTwo;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 91476,
+        "endPos": 91502
+      },
+      {
+        "content": "EFI_STRING_ID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 91478,
+        "endPos": 91491
+      },
+      {
+        "content": "TextTwo",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 91492,
+        "endPos": 91499
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_ORDERED_LIST\\n{\\n  EFI_IFR_OP_HEADER Header;\\n  EFI_IFR_QUESTION_HEADER Question;\\n  UINT8 MaxContainers;\\n  UINT8 Flags;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 91569,
+        "endPos": 91709
+      },
+      {
+        "content": "_EFI_IFR_ORDERED_LIST",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 91576,
+        "endPos": 91597
+      },
+      {
+        "content": "  UINT8 Flags;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 91692,
+        "endPos": 91708
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 91694,
+        "endPos": 91699
+      },
+      {
+        "content": "Flags",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 91700,
+        "endPos": 91705
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_STRING\\n{\\n  EFI_IFR_OP_HEADER Header;\\n  EFI_IFR_QUESTION_HEADER Question;\\n  UINT8 MinSize;\\n  UINT8 MaxSize;\\n  UINT8 Flags;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 92727,
+        "endPos": 92873
+      },
+      {
+        "content": "_EFI_IFR_STRING",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 92734,
+        "endPos": 92749
+      },
+      {
+        "content": "  UINT8 Flags;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 92856,
+        "endPos": 92872
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 92858,
+        "endPos": 92863
+      },
+      {
+        "content": "Flags",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 92864,
+        "endPos": 92869
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_CHECKBOX\\n{\\n  EFI_IFR_OP_HEADER Header;\\n  EFI_IFR_QUESTION_HEADER Question;\\n  UINT8 Flags;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 93203,
+        "endPos": 93315
+      },
+      {
+        "content": "_EFI_IFR_CHECKBOX",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 93210,
+        "endPos": 93227
+      },
+      {
+        "content": "  UINT8 Flags;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 93298,
+        "endPos": 93314
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 93300,
+        "endPos": 93305
+      },
+      {
+        "content": "Flags",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 93306,
+        "endPos": 93311
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HII_DATE\\n{\\n  UINT16 Year;\\n  UINT8 Month;\\n  UINT8 Day;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 94615,
+        "endPos": 94686
+      },
+      {
+        "content": "EFI_HII_DATE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 94622,
+        "endPos": 94634
+      },
+      {
+        "content": "  UINT8 Day;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 94671,
+        "endPos": 94685
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 94673,
+        "endPos": 94678
+      },
+      {
+        "content": "Day",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 94679,
+        "endPos": 94682
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HII_TIME\\n{\\n  UINT8 Hour;\\n  UINT8 Minute;\\n  UINT8 Second;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 94702,
+        "endPos": 94776
+      },
+      {
+        "content": "EFI_HII_TIME",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 94709,
+        "endPos": 94721
+      },
+      {
+        "content": "  UINT8 Second;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 94758,
+        "endPos": 94775
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 94760,
+        "endPos": 94765
+      },
+      {
+        "content": "Second",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 94766,
+        "endPos": 94772
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_ONE_OF_OPTION\\n{\\n  EFI_IFR_OP_HEADER Header;\\n  EFI_STRING_ID Option;\\n  UINT8 Flags;\\n  UINT8 Type;\\n  EFI_IFR_TYPE_VALUE Value;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 95498,
+        "endPos": 95647
+      },
+      {
+        "content": "_EFI_IFR_ONE_OF_OPTION",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 95505,
+        "endPos": 95527
+      },
+      {
+        "content": "  EFI_IFR_TYPE_VALUE Value;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 95617,
+        "endPos": 95646
+      },
+      {
+        "content": "EFI_IFR_TYPE_VALUE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 95619,
+        "endPos": 95637
+      },
+      {
+        "content": "Value",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 95638,
+        "endPos": 95643
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_END\\n{\\n  EFI_IFR_OP_HEADER Header;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 95731,
+        "endPos": 95785
+      },
+      {
+        "content": "_EFI_IFR_END",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 95738,
+        "endPos": 95750
+      },
+      {
+        "content": "  EFI_IFR_OP_HEADER Header;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 95755,
+        "endPos": 95784
+      },
+      {
+        "content": "EFI_IFR_OP_HEADER",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 95757,
+        "endPos": 95774
+      },
+      {
+        "content": "Header",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 95775,
+        "endPos": 95781
+      }
+    ],
+    [
+      {
+        "content": "struct IFR_VARSTORAGE_DATA\\n{\\n  EFI_VARSTORE_ID VarStoreId;\\n  UINT16 Size;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 95849,
+        "endPos": 95928
+      },
+      {
+        "content": "IFR_VARSTORAGE_DATA",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 95856,
+        "endPos": 95875
+      },
+      {
+        "content": "  UINT16 Size;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 95911,
+        "endPos": 95927
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 95913,
+        "endPos": 95919
+      },
+      {
+        "content": "Size",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 95920,
+        "endPos": 95924
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_IFR_VARSTORE_NAME_VALUE\\n{\\n  EFI_IFR_OP_HEADER Header;\\n  EFI_VARSTORE_ID VarStoreId;\\n  EFI_GUID Guid;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 96246,
+        "endPos": 96365
+      },
+      {
+        "content": "_EFI_IFR_VARSTORE_NAME_VALUE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 96253,
+        "endPos": 96281
+      },
+      {
+        "content": "  EFI_GUID Guid;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 96346,
+        "endPos": 96364
+      },
+      {
+        "content": "EFI_GUID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 96348,
+        "endPos": 96356
+      },
+      {
+        "content": "Guid",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 96357,
+        "endPos": 96361
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_IMAGE_DEBUG_DIRECTORY_ENTRY\\n{\\n  UINT32 Characteristics;\\n  UINT32 TimeDateStamp;\\n  UINT16 MajorVersion;\\n  UINT16 MinorVersion;\\n  UINT32 Type;\\n  UINT32 SizeOfData;\\n  UINT32 RVA;\\n  UINT32 FileOffset;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 96933,
+        "endPos": 97152
+      },
+      {
+        "content": "EFI_IMAGE_DEBUG_DIRECTORY_ENTRY",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 96940,
+        "endPos": 96971
+      },
+      {
+        "content": "  UINT32 FileOffset;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 97129,
+        "endPos": 97151
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 97131,
+        "endPos": 97137
+      },
+      {
+        "content": "FileOffset",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 97138,
+        "endPos": 97148
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_HANDOFF_INFO_TABLE\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n  UINT32 Version;\\n  EFI_BOOT_MODE BootMode;\\n  EFI_PHYSICAL_ADDRESS EfiMemoryTop;\\n  EFI_PHYSICAL_ADDRESS EfiMemoryBottom;\\n  EFI_PHYSICAL_ADDRESS EfiFreeMemoryTop;\\n  EFI_PHYSICAL_ADDRESS EfiFreeMemoryBottom;\\n  EFI_PHYSICAL_ADDRESS EfiEndOfHobList;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 97168,
+        "endPos": 97494
+      },
+      {
+        "content": "EFI_HOB_HANDOFF_INFO_TABLE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 97175,
+        "endPos": 97201
+      },
+      {
+        "content": "  EFI_PHYSICAL_ADDRESS EfiEndOfHobList;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 97452,
+        "endPos": 97493
+      },
+      {
+        "content": "EFI_PHYSICAL_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 97454,
+        "endPos": 97474
+      },
+      {
+        "content": "EfiEndOfHobList",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 97475,
+        "endPos": 97490
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_LOAD_FILE2_PROTOCOL\\n{\\n  EFI_LOAD_FILE2 LoadFile;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 97715,
+        "endPos": 97780
+      },
+      {
+        "content": "_EFI_LOAD_FILE2_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 97722,
+        "endPos": 97746
+      },
+      {
+        "content": "  EFI_LOAD_FILE2 LoadFile;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 97751,
+        "endPos": 97779
+      },
+      {
+        "content": "EFI_LOAD_FILE2",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 97753,
+        "endPos": 97767
+      },
+      {
+        "content": "LoadFile",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 97768,
+        "endPos": 97776
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_FIRMWARE_VOLUME2_PROTOCOL\\n{\\n  EFI_FV_GET_ATTRIBUTES GetVolumeAttributes;\\n  EFI_FV_SET_ATTRIBUTES SetVolumeAttributes;\\n  EFI_FV_READ_FILE ReadFile;\\n  EFI_FV_READ_SECTION ReadSection;\\n  EFI_FV_WRITE_FILE WriteFile;\\n  EFI_FV_GET_NEXT_FILE GetNextFile;\\n  UINT32 KeySize;\\n  EFI_HANDLE ParentHandle;\\n  EFI_FV_GET_INFO GetInfo;\\n  EFI_FV_SET_INFO SetInfo;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 99705,
+        "endPos": 100078
+      },
+      {
+        "content": "_EFI_FIRMWARE_VOLUME2_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 99712,
+        "endPos": 99742
+      },
+      {
+        "content": "  EFI_FV_SET_INFO SetInfo;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 100049,
+        "endPos": 100077
+      },
+      {
+        "content": "EFI_FV_SET_INFO",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 100051,
+        "endPos": 100066
+      },
+      {
+        "content": "SetInfo",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 100067,
+        "endPos": 100074
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_UEFI_CAPSULE\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n  EFI_PHYSICAL_ADDRESS BaseAddress;\\n  UINT64 Length;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 100094,
+        "endPos": 100216
+      },
+      {
+        "content": "EFI_HOB_UEFI_CAPSULE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 100101,
+        "endPos": 100121
+      },
+      {
+        "content": "  UINT64 Length;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 100197,
+        "endPos": 100215
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 100199,
+        "endPos": 100205
+      },
+      {
+        "content": "Length",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 100206,
+        "endPos": 100212
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_MEMORY_POOL\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 100232,
+        "endPos": 100298
+      },
+      {
+        "content": "EFI_HOB_MEMORY_POOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 100239,
+        "endPos": 100258
+      },
+      {
+        "content": "  EFI_HOB_GENERIC_HEADER Header;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 100263,
+        "endPos": 100297
+      },
+      {
+        "content": "EFI_HOB_GENERIC_HEADER",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 100265,
+        "endPos": 100287
+      },
+      {
+        "content": "Header",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 100288,
+        "endPos": 100294
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_CPU\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n  UINT8 SizeOfMemorySpace;\\n  UINT8 SizeOfIoSpace;\\n  UINT8 Reserved[6];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 100314,
+        "endPos": 100446
+      },
+      {
+        "content": "EFI_HOB_CPU",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 100321,
+        "endPos": 100332
+      },
+      {
+        "content": "  UINT8 Reserved[6];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 100423,
+        "endPos": 100445
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 100425,
+        "endPos": 100430
+      },
+      {
+        "content": "Reserved[6]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 100431,
+        "endPos": 100442
+      },
+      {
+        "content": "[6]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 100439,
+        "endPos": 100442
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_FIRMWARE_VOLUME3\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n  EFI_PHYSICAL_ADDRESS BaseAddress;\\n  UINT64 Length;\\n  UINT32 AuthenticationStatus;\\n  BOOLEAN ExtractedFv;\\n  EFI_GUID FvName;\\n  EFI_GUID FileName;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 100462,
+        "endPos": 100686
+      },
+      {
+        "content": "EFI_HOB_FIRMWARE_VOLUME3",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 100469,
+        "endPos": 100493
+      },
+      {
+        "content": "  EFI_GUID FileName;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 100663,
+        "endPos": 100685
+      },
+      {
+        "content": "EFI_GUID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 100665,
+        "endPos": 100673
+      },
+      {
+        "content": "FileName",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 100674,
+        "endPos": 100682
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_FIRMWARE_VOLUME2\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n  EFI_PHYSICAL_ADDRESS BaseAddress;\\n  UINT64 Length;\\n  EFI_GUID FvName;\\n  EFI_GUID FileName;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 100702,
+        "endPos": 100870
+      },
+      {
+        "content": "EFI_HOB_FIRMWARE_VOLUME2",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 100709,
+        "endPos": 100733
+      },
+      {
+        "content": "  EFI_GUID FileName;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 100847,
+        "endPos": 100869
+      },
+      {
+        "content": "EFI_GUID",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 100849,
+        "endPos": 100857
+      },
+      {
+        "content": "FileName",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 100858,
+        "endPos": 100866
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_RESOURCE_DESCRIPTOR\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n  EFI_GUID Owner;\\n  EFI_RESOURCE_TYPE ResourceType;\\n  EFI_RESOURCE_ATTRIBUTE_TYPE ResourceAttribute;\\n  EFI_PHYSICAL_ADDRESS PhysicalStart;\\n  UINT64 ResourceLength;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 100954,
+        "endPos": 101197
+      },
+      {
+        "content": "EFI_HOB_RESOURCE_DESCRIPTOR",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 100961,
+        "endPos": 100988
+      },
+      {
+        "content": "  UINT64 ResourceLength;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 101170,
+        "endPos": 101196
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 101172,
+        "endPos": 101178
+      },
+      {
+        "content": "ResourceLength",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 101179,
+        "endPos": 101193
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_MEMORY_ALLOCATION_HEADER\\n{\\n  EFI_GUID Name;\\n  EFI_PHYSICAL_ADDRESS MemoryBaseAddress;\\n  UINT64 MemoryLength;\\n  EFI_MEMORY_TYPE MemoryType;\\n  UINT8 Reserved[4];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 101213,
+        "endPos": 101396
+      },
+      {
+        "content": "EFI_HOB_MEMORY_ALLOCATION_HEADER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 101220,
+        "endPos": 101252
+      },
+      {
+        "content": "  UINT8 Reserved[4];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 101373,
+        "endPos": 101395
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 101375,
+        "endPos": 101380
+      },
+      {
+        "content": "Reserved[4]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 101381,
+        "endPos": 101392
+      },
+      {
+        "content": "[4]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 101389,
+        "endPos": 101392
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_MEMORY_ALLOCATION_MODULE\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n  EFI_HOB_MEMORY_ALLOCATION_HEADER MemoryAllocationHeader;\\n  EFI_GUID ModuleName;\\n  EFI_PHYSICAL_ADDRESS EntryPoint;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 101412,
+        "endPos": 101611
+      },
+      {
+        "content": "EFI_HOB_MEMORY_ALLOCATION_MODULE",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 101419,
+        "endPos": 101451
+      },
+      {
+        "content": "  EFI_PHYSICAL_ADDRESS EntryPoint;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 101574,
+        "endPos": 101610
+      },
+      {
+        "content": "EFI_PHYSICAL_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 101576,
+        "endPos": 101596
+      },
+      {
+        "content": "EntryPoint",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 101597,
+        "endPos": 101607
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_HOB_MEMORY_ALLOCATION_STACK\\n{\\n  EFI_HOB_GENERIC_HEADER Header;\\n  EFI_HOB_MEMORY_ALLOCATION_HEADER AllocDescriptor;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 101627,
+        "endPos": 101758
+      },
+      {
+        "content": "EFI_HOB_MEMORY_ALLOCATION_STACK",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 101634,
+        "endPos": 101665
+      },
+      {
+        "content": "  EFI_HOB_MEMORY_ALLOCATION_HEADER AllocDescriptor;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 101704,
+        "endPos": 101757
+      },
+      {
+        "content": "EFI_HOB_MEMORY_ALLOCATION_HEADER",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 101706,
+        "endPos": 101738
+      },
+      {
+        "content": "AllocDescriptor",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 101739,
+        "endPos": 101754
+      }
+    ],
+    [
+      {
+        "content": "struct _EFI_DRIVER_BINDING_PROTOCOL\\n{\\n  EFI_DRIVER_BINDING_SUPPORTED Supported;\\n  EFI_DRIVER_BINDING_START Start;\\n  EFI_DRIVER_BINDING_STOP Stop;\\n  UINT32 Version;\\n  EFI_HANDLE ImageHandle;\\n  EFI_HANDLE DriverBindingHandle;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 107228,
+        "endPos": 107461
+      },
+      {
+        "content": "_EFI_DRIVER_BINDING_PROTOCOL",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 107235,
+        "endPos": 107263
+      },
+      {
+        "content": "  EFI_HANDLE DriverBindingHandle;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 107425,
+        "endPos": 107460
+      },
+      {
+        "content": "EFI_HANDLE",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 107427,
+        "endPos": 107437
+      },
+      {
+        "content": "DriverBindingHandle",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 107438,
+        "endPos": 107457
+      }
+    ],
+    [
+      {
+        "content": "struct USB_CLASS_TEXT\\n{\\n  BOOLEAN ClassExist;\\n  UINT8 Class;\\n  BOOLEAN SubClassExist;\\n  UINT8 SubClass;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 107477,
+        "endPos": 107588
+      },
+      {
+        "content": "USB_CLASS_TEXT",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 107484,
+        "endPos": 107498
+      },
+      {
+        "content": "  UINT8 SubClass;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 107568,
+        "endPos": 107587
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 107570,
+        "endPos": 107575
+      },
+      {
+        "content": "SubClass",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 107576,
+        "endPos": 107584
+      }
+    ],
+    [
+      {
+        "content": "struct IA32_FX_BUFFER\\n{\\n  UINT8 Buffer[512];\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 107732,
+        "endPos": 107781
+      },
+      {
+        "content": "IA32_FX_BUFFER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 107739,
+        "endPos": 107753
+      },
+      {
+        "content": "  UINT8 Buffer[512];\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 107758,
+        "endPos": 107780
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 107760,
+        "endPos": 107765
+      },
+      {
+        "content": "Buffer[512]",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 107766,
+        "endPos": 107777
+      },
+      {
+        "content": "[512]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 107772,
+        "endPos": 107777
+      }
+    ],
+    [
+      {
+        "content": "struct IA32_WORD_REGS\\n{\\n  UINT16 DI;\\n  UINT16 Reserved1;\\n  UINT16 SI;\\n  UINT16 Reserved2;\\n  UINT16 BP;\\n  UINT16 Reserved3;\\n  UINT16 SP;\\n  UINT16 Reserved4;\\n  UINT16 BX;\\n  UINT16 Reserved5;\\n  UINT16 DX;\\n  UINT16 Reserved6;\\n  UINT16 CX;\\n  UINT16 Reserved7;\\n  UINT16 AX;\\n  UINT16 Reserved8;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 107928,
+        "endPos": 108235
+      },
+      {
+        "content": "IA32_WORD_REGS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 107935,
+        "endPos": 107949
+      },
+      {
+        "content": "  UINT16 Reserved8;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 108213,
+        "endPos": 108234
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 108215,
+        "endPos": 108221
+      },
+      {
+        "content": "Reserved8",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 108222,
+        "endPos": 108231
+      }
+    ],
+    [
+      {
+        "content": "struct IA32_DWORD_REGS\\n{\\n  UINT32 EDI;\\n  UINT32 ESI;\\n  UINT32 EBP;\\n  UINT32 ESP;\\n  UINT32 EBX;\\n  UINT32 EDX;\\n  UINT32 ECX;\\n  UINT32 EAX;\\n  UINT16 DS;\\n  UINT16 ES;\\n  UINT16 FS;\\n  UINT16 GS;\\n  IA32_EFLAGS32 EFLAGS;\\n  UINT32 Eip;\\n  UINT16 CS;\\n  UINT16 SS;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 109074,
+        "endPos": 109346
+      },
+      {
+        "content": "IA32_DWORD_REGS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 109081,
+        "endPos": 109096
+      },
+      {
+        "content": "  UINT16 SS;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 109331,
+        "endPos": 109345
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 109333,
+        "endPos": 109339
+      },
+      {
+        "content": "SS",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 109340,
+        "endPos": 109342
+      }
+    ],
+    [
+      {
+        "content": "struct IA32_BYTE_REGS\\n{\\n  UINT32 Reserved1;\\n  UINT32 Reserved2;\\n  UINT32 Reserved3;\\n  UINT32 Reserved4;\\n  UINT8 BL;\\n  UINT8 BH;\\n  UINT16 Reserved5;\\n  UINT8 DL;\\n  UINT8 DH;\\n  UINT16 Reserved6;\\n  UINT8 CL;\\n  UINT8 CH;\\n  UINT16 Reserved7;\\n  UINT8 AL;\\n  UINT8 AH;\\n  UINT16 Reserved8;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 109362,
+        "endPos": 109661
+      },
+      {
+        "content": "IA32_BYTE_REGS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 109369,
+        "endPos": 109383
+      },
+      {
+        "content": "  UINT16 Reserved8;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 109639,
+        "endPos": 109660
+      },
+      {
+        "content": "UINT16",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 109641,
+        "endPos": 109647
+      },
+      {
+        "content": "Reserved8",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 109648,
+        "endPos": 109657
+      }
+    ],
+    [
+      {
+        "content": "struct BLUETOOTH_LE_ADDRESS\\n{\\n  UINT8 Address[6];\\n  UINT8 Type;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 109947,
+        "endPos": 110016
+      },
+      {
+        "content": "BLUETOOTH_LE_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 109954,
+        "endPos": 109974
+      },
+      {
+        "content": "  UINT8 Type;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 110000,
+        "endPos": 110015
+      },
+      {
+        "content": "UINT8",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 110002,
+        "endPos": 110007
+      },
+      {
+        "content": "Type",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 110008,
+        "endPos": 110012
+      },
+      {
+        "content": "[6]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 109994,
+        "endPos": 109997
+      }
+    ],
+    [
+      {
+        "content": "struct BLUETOOTH_LE_DEVICE_PATH\\n{\\n  EFI_DEVICE_PATH_PROTOCOL Header;\\n  BLUETOOTH_LE_ADDRESS Address;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 110032,
+        "endPos": 110138
+      },
+      {
+        "content": "BLUETOOTH_LE_DEVICE_PATH",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 110039,
+        "endPos": 110063
+      },
+      {
+        "content": "  BLUETOOTH_LE_ADDRESS Address;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 110104,
+        "endPos": 110137
+      },
+      {
+        "content": "BLUETOOTH_LE_ADDRESS",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 110106,
+        "endPos": 110126
+      },
+      {
+        "content": "Address",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 110127,
+        "endPos": 110134
+      }
+    ],
+    [
+      {
+        "content": "struct BASE_LIBRARY_JUMP_BUFFER\\n{\\n  UINT64 Rbx;\\n  UINT64 Rsp;\\n  UINT64 Rbp;\\n  UINT64 Rdi;\\n  UINT64 Rsi;\\n  UINT64 R12;\\n  UINT64 R13;\\n  UINT64 R14;\\n  UINT64 R15;\\n  UINT64 Rip;\\n  UINT64 MxCsr;\\n  UINT8 XmmBuffer[160];\\n  UINT64 Ssp;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 111182,
+        "endPos": 111426
+      },
+      {
+        "content": "BASE_LIBRARY_JUMP_BUFFER",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 111189,
+        "endPos": 111213
+      },
+      {
+        "content": "  UINT64 Ssp;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 111410,
+        "endPos": 111425
+      },
+      {
+        "content": "UINT64",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 111412,
+        "endPos": 111418
+      },
+      {
+        "content": "Ssp",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 111419,
+        "endPos": 111422
+      },
+      {
+        "content": "[160]",
+        "isParticipating": true,
+        "groupNum": 5,
+        "startPos": 111402,
+        "endPos": 111407
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_DEBUG_INFO\\n{\\n  UINT32 ErrorLevel;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 111983,
+        "endPos": 112032
+      },
+      {
+        "content": "EFI_DEBUG_INFO",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 111990,
+        "endPos": 112004
+      },
+      {
+        "content": "  UINT32 ErrorLevel;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 112009,
+        "endPos": 112031
+      },
+      {
+        "content": "UINT32",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 112011,
+        "endPos": 112017
+      },
+      {
+        "content": "ErrorLevel",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 112018,
+        "endPos": 112028
+      }
+    ],
+    [
+      {
+        "content": "struct EFI_STATUS_CODE_STRING_DATA\\n{\\n  EFI_STATUS_CODE_DATA DataHeader;\\n  EFI_STRING_TYPE StringType;\\n  EFI_STATUS_CODE_STRING String;\\n}",
+        "isParticipating": true,
+        "groupNum": 0,
+        "startPos": 112436,
+        "endPos": 112577
+      },
+      {
+        "content": "EFI_STATUS_CODE_STRING_DATA",
+        "isParticipating": true,
+        "groupNum": 1,
+        "startPos": 112443,
+        "endPos": 112470
+      },
+      {
+        "content": "  EFI_STATUS_CODE_STRING String;\\n",
+        "isParticipating": true,
+        "groupNum": 2,
+        "startPos": 112542,
+        "endPos": 112576
+      },
+      {
+        "content": "EFI_STATUS_CODE_STRING",
+        "isParticipating": true,
+        "groupNum": 3,
+        "startPos": 112544,
+        "endPos": 112566
+      },
+      {
+        "content": "String",
+        "isParticipating": true,
+        "groupNum": 4,
+        "startPos": 112567,
+        "endPos": 112573
+      }
+    ]
+  ]
